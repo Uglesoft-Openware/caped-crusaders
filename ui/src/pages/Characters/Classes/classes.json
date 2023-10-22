@@ -1,0 +1,2173 @@
+{
+    "entries": [
+        {
+            "name": "Visionary",
+            "class_img_credit": "Created by VINZENCE STUDIO from NounProject.com",
+            "description": "An armored sentinel wielding unique technology beyond the cutting edge.  ",
+            "description_long_str": "Armed with the most advanced arsenal of devices and weapons of the era, the Visionary is a durable and versatile Primary Techcaster who contributes to combat and excels at utility.  ",
+            "class_type": "Primary Tech Caster",
+            "primary_ability": "Int",
+            "hit_die": 6,
+            "hit_die_average_int": 4,
+            "proficiencies_armor": "None",
+            "proficiencies_weapons": "Simple Mundane Weapons",
+            "proficiencies_tools": "Inventor's Tools, any two of your choice",
+            "saves": "Int, Wis",
+            "proficiencies_skills": "Choose any three",
+            "equipment_armor": "Forged Plate, Steel",
+            "equipment_weapons": "Any Simple Technological Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Inventor's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 8,
+            "consumables_known_per_level": 2,
+            "consumables_points_per_level": 2,
+            "consumables_max_per_level_denominator": 2,
+            "class_feats": [
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 3
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 5
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 9
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 11
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 15
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 17
+                },
+                {
+                    "name": "Augmented Armor",
+                    "level": 1,
+                    "mechanics_str": "Your inventive pursuits have led to you employ an advanced suit of technology that serves as a conduit for your Techcasting.  You gain Augmented Armor, which can be activated for a predefined duration a number of times equal to your Intelligence Modifier between Long Rests.  The traits you gain while the Augmented Armor is active are as follows:  <ul><li><b>Activation:  </b>As a Bonus Action, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Duration:  </b>Your Augmented Armor lasts for a number of minutes equal to your Intelligence Modifier</li><li><b>Armor Class:  </b>You gain an Armor Class bonus equal to your Intelligence Modifier.  </li><li><b>Strength:  </b>Your Strength score becomes equal to your Intelligence score as long as it is not already higher.  </li><li><b>Casting Focus:  </b>You can use the Augmented Armor as a Techcasting focus for your Visionary spells.  </li><li><b>Irremovable:  </b>The Augmented Armor attaches to you and can't be removed against your will.  </li><li><b>Augmentation:  </b>The Augmented Armor expands to cover your entire body, replacing any missing limbs and functioning identically to a limb it replaces.  </li></ul>At level 12, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a Reaction when you are hit by an Attack or forced to make a Saving Throw, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to half of your Intelligence score (rounded down) if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of hours equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>At level 18, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a part of any Action, Bonus Action, or Reaction you take, you can don or doff the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Casting Focus:  </b>You are always considered to possess a Techcasting focus as components of the Augmented Armor dynamically deploy and retract as needed.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to your Intelligence score if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of days equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>"
+                },
+                {
+                    "name": "Augmented Armor",
+                    "level": 12
+                },
+                {
+                    "name": "Augmented Armor",
+                    "level": 18
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 8
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 16
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 6
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 10
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                },
+                {
+                    "name": "Renewable Energy",
+                    "level": 20,
+                    "mechanics_str": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
+                }
+            ],
+            "subclass_magic_name": "Glyphologist",
+            "subclass_magic_img_credit": "Created by Andrejs Kirma from NounProject.com",
+            "subclass_magic_description": "A scholar of ancient knowledge and mythology, the Glyphologist combines modern science with ancient magical power sources. Whether it be inscribing runes, compressing motes of power, or integrating powerful artifacts, the Glyphologist binds themselves and their armor together on a supernatural level. While not a spellcaster, the Glyphologist still benefits from magical boons that manifest in a variety of ways. The Glyphologist can also adapt other suits of Magical Armor to fit their needs.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 8,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 16,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Magnate",
+            "subclass_power_img_credit": "Created by Dairy Free Design from NounProject.com",
+            "subclass_power_description": "Some superpowers are far more subtle than most, and the Magnate is a prime example. Whether relying on magnetic manipulation, electrokinesis, or cybernetics, you stand out as a Visionary with precise control over your Technology. Having a direct connection between your nervous system and your devices grants you an innate control over your Augmented Armor. The Magnate can also adapt other suits of Metapower Armor to fit their needs.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 8,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 16,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Virtuoso",
+            "subclass_tech_img_credit": "Created by Adityas Fathunurrahman from NounProject.com",
+            "subclass_tech_description": "A paragon of invention and ingenuity, the Virtuoso has created and incorporated a truly sustainable energy source. This energy source grants the Virtuoso several at-will Technologies and capabilities, such as flight. The Virtuoso can also adapt other suits of Technological Armor to fit their needs.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 8,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 16,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Detective",
+            "class_img_credit": "Created by Stijn van der Grinten from NounProject.com",
+            "description": "A skilled predator that employs a wide variety of techniques to maintain the upper hand.  ",
+            "description_long_str": "Driven by an unwavering vendetta, the Detective never settles for anything less than perfection in their own performance in order to become a paragon of human capability.  ",
+            "class_type": "Secondary Tech Caster",
+            "primary_ability": "Int",
+            "hit_die": 8,
+            "hit_die_average_int": 5,
+            "proficiencies_armor": "Light Mundane Armors, Light Technological Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Technological Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Int, Dex",
+            "proficiencies_skills": "Choose any two, one of which must be Int based",
+            "equipment_armor": "One Light Mundane Armor",
+            "equipment_weapons": "One Simple Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Vigilante's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 6,
+            "consumables_known_per_level": 1,
+            "consumables_points_per_level": 1,
+            "consumables_max_per_level_denominator": 3,
+            "class_feats": [
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn 4 Technologies of your choice, and you learn an additional 4 at each higher Visionary level as shown in the Technologies Known column of the Visionary table.  You may not learn a Technology of a level higher than your Max Technology Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 4
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 10
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 16
+                },
+                {
+                    "name": "Techcasting Milestone",
+                    "level": 19
+                },
+                {
+                    "name": "Detective's Intuition",
+                    "level": 1,
+                    "mechanics_str": "When character within 60 feet of you that you can see is about to attempt a skill check, you can activate this feature to learn the DC of the endeavor about to be attempted, along with the immediate consequences of failing to meet that DC.  For example, if you are about to disarm a bomb, you could use this feature to learn that the disarming DC is actually 25, which is much higher than you might expect, and that attempting to disarm it and failing would cause it to detonate early.  This could lead you to take an approach more likely to succeed, such as moving the bomb to a safe location and allowing it to detonate.  You may use this feature a number of times equal to your Proficiency Bonus between Long Rests.  <br><br>At level 9, you may use your Detective's Intuition to observe a creature or vehicle as a Bonus Action.  When you do so, you learn the challenge rating and type of creature or vehicle you are observing, and must make an Investigation skill check that meets or exceeds the target's challenge rating.  The GM may also call for another Intelligence based skill check instead of Investigation if the target is notably exotic.  If you succeed, you immediately learn the Armor Class, Hit Points, two weakest Saving Throws, special senses, movement speeds, Weaknesses, and Vulnerabilities of the target.  <br><br>At level 15, if your passive Investigation is higher than the challenge rating of the target, you automatically succeed.  "
+                },
+                {
+                    "name": "Detective's Intuition",
+                    "level": 9
+                },
+                {
+                    "name": "Detective's Intuition",
+                    "level": 15
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 6, 13, and 18.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 6
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 12
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 18
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 3,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You benefit from additional Ability Score Improvements at levels 5, 8, 11, 14, and 17.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Unfailing Contingency",
+                    "level": 20,
+                    "mechanics_str": "When you witness a skill check, Saving Throw, or an Attack roll occur within 60 feet of you, you may choose to alter the outcome, turning a failure into a success or a success into a failure.  You may use this feature once per Long Rest.  "
+                }
+            ],
+            "subclass_magic_name": "Victorian",
+            "subclass_magic_img_credit": "Created by Zach Bogart from NounProject.com",
+            "subclass_magic_description": "Employing all manner of things learned from the most obscure places, the Victorian employs ancient magic to aid in their endeavors.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 6,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Magic",
+                    "level": 12,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 18,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Oracle",
+            "subclass_power_img_credit": "The Prophecy by Anatolii Babii from NounProject.com",
+            "subclass_power_img_source": "https://thenounproject.com/icon/the-prophecy-1745437/",
+            "subclass_power_description": "Combining a trained eye for detail with innate senses that extend into the supernatural, the Oracle is able to discern information that might be too obscure for others.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 6,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Power",
+                    "level": 12,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 18,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Exemplar",
+            "subclass_tech_img_credit": "Sword Symbol from HiClipart",
+            "subclass_tech_img_source": "https://www.hiclipart.com/free-transparent-background-png-clipart-pubeh",
+            "subclass_tech_description": "A being of sheer will, the Exemplar relentlessly applies the most advanced techniques to strike fear into the hearts of average mooks and command respect as a mortal in a world of demigods.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 6,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Tech",
+                    "level": 12,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 18,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Marksman",
+            "class_img_credit": "Target by yusuf from NounProject.com",
+            "class_img_source": "https://thenounproject.com/icon/target-3741107/",
+            "description": "A sharpshooting expert who surveys and strikes key enemy forces.  ",
+            "description_long_str": "With an eye for detail and the skill to hit the mark, the Marksman is a lethal addition to the battlefield at any distance.  ",
+            "class_type": "Secondary Tech Martial",
+            "primary_ability": "Int",
+            "hit_die": 10,
+            "hit_die_average_int": 6,
+            "proficiencies_armor": "Light Mundane Armors, Light Technological Armors, Medium Mundane Armors, Medium Technological Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Technological Weapons, Martial Mundane Weapons",
+            "proficiencies_tools": "Choose any two",
+            "saves": "Dex, Int",
+            "proficiencies_skills": "Choose any two, one of which must be Dexterity based",
+            "equipment_armor": "Fitted Tunic, Kevlar",
+            "equipment_weapons": "Any Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Espionist's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 3,
+            "consumables_known_per_level": 0.5,
+            "consumables_points_per_level": 0.5,
+            "consumables_max_per_level_denominator": 6,
+            "class_feats": [
+                {
+                    "name": "Combat Techniques",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Techniques as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Technique that you qualify for if your total number of Techniques is less than the Sustainables Known for your level.  You may also swap an existing Technique for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 3
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 6
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 9
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 12
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 15
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 18
+                },
+                {
+                    "name": "Sneak Attack",
+                    "level": 1,
+                    "mechanics_str": "When you make a Dexterity based Attack with Advantage, while in Dim Light or Darkness, or while an ally is within 5 feet of the target, you can deal additional damage equal to a number of d6s equal to your Proficiency Bonus.  <br><br>At level 10, when you deal Sneak Attack damage to a target, all Attacks against the target made by creatures other than you deal an additional 1d6 damage.  This feature can be applied to multiple targets at once, but cannot stack on a single target.  <br><br>At level 20, your Sneak Attack dice become d8s, and the additional damage granted to other attackers increases to 2d8.  "
+                },
+                {
+                    "name": "Sharpshooter",
+                    "level": 5,
+                    "mechanics_str": "When you make a Dexterity based Attack, you can choose to apply the damage modifiers to the Attack roll instead.  When you hit a target with this feature, their movement speed is reduced by 5 feet until the start of your next turn.  This penalty can affect multiple creatures simultaneously and also stack on a single target.  <br><br>At level 16, when you hit a target with this feature, you reduce the target's Armor Class for all attacks made by creatures other than you by an amount equal to your Proficiency Bonus until the start of your next turn.  This penalty can affect multiple creatures simultaneously, but cannot stack on a single target.  "
+                },
+                {
+                    "name": "Sneak Attack",
+                    "level": 10
+                },
+                {
+                    "name": "Sharpshooter",
+                    "level": 16
+                },
+                {
+                    "name": "Sneak Attack",
+                    "level": 20
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 7, 13, and 19.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 7
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 13
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 19
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 20
+                }
+            ],
+            "subclass_magic_name": "Ranger",
+            "subclass_magic_img_credit": "Plant by luca fruzza from NounProject.com",
+            "subclass_magic_description": "Combining deadly accuracy with potent magic, the Ranger employs a balanced approach that excels at striking down hordes and tracking foes through wilderness.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Intelligence.  You use your Intelligence modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                }
+            ],
+            "subclass_power_name": "Assassin",
+            "subclass_power_img_credit": "Created by m. turan ercan from NounProject.com",
+            "subclass_power_description": "Having been altered to increase their combat capability, the Assassin is as deadly as they are discrete.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Wisdom.  You use your Wisdom modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                }
+            ],
+            "subclass_tech_name": "Espionist",
+            "subclass_tech_img_credit": "Created by Icon Fair from NounProject.com",
+            "subclass_tech_description": "Focusing on skills that infiltrate and undermine, the Espionist specializes in crippling organizations from the inside.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Charisma.  You use your Charisma modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                }
+            ]
+        },
+        {
+            "name": "Soldier",
+            "class_img_credit": "Created by Becris from NounProject.com",
+            "description": "A warrior who relies on martial prowess and tactical skill to lead small units.  ",
+            "description_long_str": "After countless hours of training to be the perfect weapon, the Soldier is capable of waging war on the frontline and organizing allies simultaneously.  ",
+            "class_type": "Primary Tech Martial",
+            "primary_ability": "Str",
+            "hit_die": 12,
+            "hit_die_average_int": 7,
+            "proficiencies_armor": "Light Mundane Armors, Light Technological Armors, Medium Mundane Armors, Medium Technological Armors, Heavy Mundane Armors, Heavy Technological Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Technological Weapons, Martial Mundane Weapons, Martial Technological Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Str, Dex",
+            "proficiencies_skills": "Choose any two, one of which must be either Strength or Dexterity based.  ",
+            "equipment_armor": "Molded Plate, Kevlar",
+            "equipment_weapons": "Any two Technological or Mundane weapons",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Tactician's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 2,
+            "consumables_known_per_level": 0.25,
+            "consumables_points_per_level": 0.25,
+            "consumables_max_per_level_denominator": 8,
+            "class_feats": [
+                {
+                    "name": "Combat Techniques",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Techniques as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Technique that you qualify for if your total number of Techniques is less than the Sustainables Known for your level.  You may also swap an existing Technique for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 2
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 4
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 6
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 8
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 10
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 12
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 14
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 16
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 18
+                },
+                {
+                    "name": "Combat Techniques",
+                    "level": 20
+                },
+                {
+                    "name": "Tactical Strategy",
+                    "level": 1,
+                    "mechanics_str": "You learn a number of Strategies equal to your Proficiency Bonus, and can learn additional Strategies to reflect your Proficiency Bonus or swap one Strategy for another on each subsequent level up.  You gain a number of Strategy Dice equal to your Proficiency Bonus, which are d8s.  The Strategies are as follows:<br><ul><li><b>Coordinated Attack: </b>When you hit a target with an Attack, you can expend a Strategy Die to forgo a subsequent attack.  You may then direct an Ally to expend their Reaction and move up to their speed towards the same target, making one Attack against the target if they are able to get within range and adding the Strategy Die to their Attack roll. .  </li><br><li><b>Defensive Stance: </b>You may use a Bonus Action to expend a Strategy Die, increasing your AC by the amount rolled until the end of your next turn.  While you benefit from this AC increase, you do not provoke Opportunity Attacks.  </li><br><li><b>Disarming Strike: </b>When you hit a target with an Attack, you can expend a Strategy Die and add the result to the damage roll.  In addition, the target must make a Strength saving throw, dropping one item of your choice that it's holding at any point within 15 of the target of your choosing upon failure. .  </li><br><li><b>Distracting Strike: </b>When you hit a target with an Attack, you can expend a Strategy Die and add the result to the damage roll.  In addition, you grant all creatures other than you advantage on all Attacks against the target until the end of your next turn.  </li><br><li><b>Feinting Attack: </b>You may use a Bonus Action to expend a Strategy Die, gaining advantage on all Attack rolls against that target until the start of your next turn.  The first time you hit that target while this effect is active, you may add the Strategy Die to that damage roll. .  </li><br><li><b>Focused Agility: </b>When you make a Dexterity or Strength check, you can expend a Strategy Die to gain advantage on the check and add the result to your total.  </li><br><li><b>Grappling Strike: </b>When you hit a target with an Attack, you can expend a Strategy Die to attempt to Grapple the target and add the Strategy Die to your Strength (Athletics) check.  </li><br><li><b>Parry: </b>When an Attack made by a target you are aware of misses you, you may use a Reaction to expend a Strategy Die and reduce the incoming damage by an amount equal to the Strategy Die + your Dexterity Modifier or half of the incoming damage.  </li><br><li><b>Repelling Attack: </b>When you hit a target with an Attack, you can expend a Strategy Die and add the result to the damage roll.  In addition, the target must make a Strength Saving Throw if they are no more than one size category larger than you, being pushed 20 feet away from you upon failure.  </li><br><li><b>Riposte: </b>When an Attack made by a target you are aware of misses you, you may use a Reaction to expend a Strategy Die and make an Attack against the target, add the Strategy Die to that damage roll.  </li><br><li><b>Trip Attack: </b>When you hit a target with an Attack, you can expend a Strategy Die and add the result to the damage roll.  In addition, the target must make a Strength Saving Throw if they are no more than one size category larger than you, being knocked prone upon failure.  </li><br><li><b>Vigilance: </b>When a target you are aware of moves into your reach, you may use a Reaction to expend a Strategy Die and make an Attack against the target, adding the Strategy Die to that damage roll.  </li></ul>At level 13, your Strategy Dice become d10s.  At level 20, your Strategy Dice become d12s, and you gain two Strategy Dice if you roll Initiative with less than two Strategy Dice remaining.  "
+                },
+                {
+                    "name": "Tactical Strategy",
+                    "level": 13
+                },
+                {
+                    "name": "Tactical Strategy",
+                    "level": 20
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 3,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 9 and 17.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 9
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 7
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 15
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                }
+            ],
+            "subclass_magic_name": "Sentinel",
+            "subclass_magic_img_credit": "Created by Maxicons from NounProject.com",
+            "subclass_magic_description": "Becoming enhanced at the hands of experimentation, the Patriot leads by example of self sacrifice.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Intelligence.  You use your Intelligence modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Magic Weapon Bond",
+                    "level": 9,
+                    "mechanics_str": "When you attune to a Magical Weapon, it does not count against your total number of attunement slots.  "
+                },
+                {
+                    "name": "Combat Casting",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Magic based effects. In addition, any Magic based attack roll (Spellcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ],
+            "subclass_power_name": "Patriot",
+            "subclass_power_img_credit": "Created by myiconfinder from NounProject.com",
+            "subclass_power_description": "Becoming enhanced at the hands of experimentation, the Patriot leads by example of self sacrifice.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Intelligence.  You use your Intelligence modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Power Weapon Bond",
+                    "level": 9,
+                    "mechanics_str": "When you attune to a Superpowered Weapon, it does not count against your total number of attunement slots.  "
+                },
+                {
+                    "name": "Combat Casting",
+                    "level": 17,
+                    "mechanics_str": "When you use your Action to cast a Superpower, you can make half the number Attacks you would make with your Action (rounded down, minimum of one) as a Bonus Action. For example, a Soldier who does not have Extra Attack would make one Attack as a Bonus Action using this feature, while a Soldier with Extra Attack (7) would make three Attacks as a Bonus Action using this feature.  "
+                }
+            ],
+            "subclass_tech_name": "Ronin",
+            "subclass_tech_img_credit": "Created by lastspark from NounProject.com",
+            "subclass_tech_description": "Blending instinctive skills with expendable gadgets, the Ronin is a capable and unpredictable combatant.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Tech Weapon Bond",
+                    "level": 9,
+                    "mechanics_str": "When you attune to a Technological Weapon, it does not count against your total number of attunement slots.  "
+                },
+                {
+                    "name": "Combat Casting",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Tech based effects. In addition, any Tech based attack roll (Techcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ]
+        },
+        {
+            "name": "Archmage",
+            "class_img_credit": "Magic by Hat-Tech from NounProject.com",
+            "description": "A master of magic with the largest selection of casting options at any time.  ",
+            "description_long_str": "Having studied the nature of supernatural domains of energy, the Archmage is capable of employing various magical effects and religious rituals.  ",
+            "class_type": "Primary Magic Caster",
+            "primary_ability": "Wis",
+            "hit_die": 6,
+            "hit_die_average_int": 4,
+            "proficiencies_armor": "None",
+            "proficiencies_weapons": "Simple Mundane Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Wis, Cha",
+            "proficiencies_skills": "Choose any two, one of which must be Wisdom based.  ",
+            "equipment_armor": "Tunic, Cloth",
+            "equipment_weapons": "One Simple Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Scholar's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 8,
+            "consumables_known_per_level": 2,
+            "consumables_points_per_level": 2,
+            "consumables_max_per_level_denominator": 2,
+            "class_feats": [
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn 4 Spells of your choice, and you learn an additional 4 at each higher level as shown in the Spells Known column of the Class table.  You may not learn a Spell of a level higher than your Max Spell Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points based on your Class level as shown in the Spell Points column of the Class table.  You expend these Spell Points to cast Spell Powers.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Spell Level column of the Visionary table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Wisdom.  You use your Wisdom modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 3
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 5
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 9
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 11
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 15
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 17
+                },
+                {
+                    "name": "Supernatural Inspiration",
+                    "level": 1,
+                    "mechanics_str": "When you see a creature other than yourself within 60 feet of you fail a Skill Check, fail a Saving Throw, or miss with an Attack, you can roll a Supernatural Inspiration die (d8) as a Reaction and add it to the result, potentially changing the outcome.  You may use this feature a number of times equal to your Wisdom Modifier between Long Rests.  If the result after adding the Supernatural Inspiration die is still a failure, it doesn't count against your total number of uses for this feature.  <br><br>Your Supernatural Inspiration die increases at higher levels, becoming a d10 at level 4, a d12 at level 12, and a d20 at level 19.  "
+                },
+                {
+                    "name": "Supernatural Inspiration",
+                    "level": 12
+                },
+                {
+                    "name": "Supernatural Inspiration",
+                    "level": 18
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 8
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 16
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 6
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 10
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                },
+                {
+                    "name": "Partial Omnipotence",
+                    "level": 20,
+                    "mechanics_str": "As a Reaction, you may cast any one Archmage Spell, requiring no components.  Alternatively, you may choose to entirely negate one Spell/Technology/Superpower based effect that already exists or is being cast.  You may use this Reaction once per Long Rest.  "
+                }
+            ],
+            "subclass_magic_name": "Arcanoblate",
+            "subclass_magic_img_credit": "Created by Smalllike from NounProject.com",
+            "subclass_magic_description": "Devoted to the practice and study of magic, philosophy, and religion, the Arcanoblate attains a higher spiritual connection to the nature of magic itself.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 8,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 16,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Psionotheist",
+            "subclass_power_img_credit": "Created by emilegraphics from NounProject.com",
+            "subclass_power_description": "With a natural set of superhuman abilities, the Psionotheist exerts a more fine tuned control over their magical abilities.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 8,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 16,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Magiteknician",
+            "subclass_tech_img_credit": "Created by Yarden Gilboa from NounProject.com",
+            "subclass_tech_description": "Combining arcane power with technological knowledge, the Magiteknician carves out a unique niche where science and magic collide.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 8,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 16,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Trickster",
+            "class_img_credit": "Trickster by Robert Bjurshagen from NounProject.com",
+            "description": "A cunning cutthroat wielding illusions and quick daggers who can never be fully trusted.  ",
+            "description_long_str": "Wielding magic designed to deceive and distract, the Trickster can be a staggering force divider that leaves the enemy drowning in confusion.  ",
+            "class_type": "Secondary Magic Caster",
+            "primary_ability": "Cha",
+            "hit_die": 8,
+            "hit_die_average_int": 7,
+            "proficiencies_armor": "Light Mundane Armors, Light Magical Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Magical Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Cha, Dex",
+            "proficiencies_skills": "Choose any two, one of which must be Strength or Wisdom based.  ",
+            "equipment_armor": "Any one Light Mundane Armor",
+            "equipment_weapons": "Any two Simple Mundane Weapons",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Bard's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 6,
+            "consumables_known_per_level": 1,
+            "consumables_points_per_level": 1,
+            "consumables_max_per_level_denominator": 3,
+            "class_feats": [
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn 4 Spells of your choice, and you learn an additional 4 at each higher level as shown in the Spells Known column of the Class table.  You may not learn a Spell of a level higher than your Max Spell Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points based on your Class level as shown in the Spell Points column of the Class table.  You expend these Spell Points to cast Spell Powers.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Spell Level column of the Visionary table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Charisma.  You use your Charisma modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 4
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 10
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 16
+                },
+                {
+                    "name": "Spellcasting Milestone",
+                    "level": 19
+                },
+                {
+                    "name": "Mirage Arcana",
+                    "level": 1,
+                    "mechanics_str": "You are able to create an illusory puppet as a Bonus Action called a Mirage.  You may choose to have the Mirage take the appearance of any Medium creature you have seen, and you have +5 to all Charisma related checks when interacting as the Mirage.  The Mirage can appear anywhere within 60 feet of you, and you can see through the Mirage's senses until the start of your next turn as an Action.  The Mirage has an Armor Class equal to yours and 1 hit point.  It uses your Saving Throw calculations, movement speeds, and skill modifiers.  The Mirage posesses none of your other features.  Once summoned, you can control the Mirage freely at all times granted it is within 1000 feet of you, but it acts on your initiative count in tandem to you in combat.  The Mirage can move and speak at your mental direction.  Creatures who see the Mirage whose passive Investigation is higher than your Spellcasting DC automatically discern it as an Illusion.  Otherwise, they believe it is real until given reason not to (special senses such as blindsense, observing a physical object pass through the Mirage, etc).  <br><br>At level 9, you can create one or two Mirages, and control them simultaneously.  You may also have a Mirage encapsulate you, allowing you to change your appearance at will.  <br><br>At level 15, when you are damaged, you may use a Reaction to swap places with a Mirage that is duplicating your appearance and is not encapsulating you, granted they are within 120 feet of you.  Doing so avoids the instance of damage and destroys the Mirage.  You may use this Reaction a number of times equal to your Proficiency Bonus.  "
+                },
+                {
+                    "name": "Mirage Arcana",
+                    "level": 9
+                },
+                {
+                    "name": "Mirage Arcana",
+                    "level": 15
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 6, 13, and 18.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 6
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 12
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 18
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 3,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You benefit from additional Ability Score Improvements at levels 5, 8, 11, 14, and 17.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Mirage Ultimatum",
+                    "level": 20,
+                    "mechanics_str": "You can create up to three Mirages, and control them simultaneously.  You may also have a Mirage encapsulate another creature, modifying their appearance and tone of voice, but not restricting their actions in any way.  A Mirage that does so can cling to a creature without your direction should line of sight be broken.  In addition, as a Bonus Action, you can direct any or all of your Mirages that are not encapsulating another creature to take one Attack each.  You are considered proficient in the Attack, which uses your Charisma Modifier.  The damage is equal to your Proficiency Bonus + your Charisma Modifier.  In addition, you may cast any Trickster Spell as if you were in the space of any Mirage that looks like you, granted they are within 120 feet of you.  "
+                }
+            ],
+            "subclass_magic_name": "Soulrender",
+            "subclass_magic_img_credit": "Created by HeadsOfBirds from NounProject.com",
+            "subclass_magic_description": "Focusing on magic meant to psychologically scar and disarm, the Soulrender embraces everything dark and unnatural to keep foes offput.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 6,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Magic",
+                    "level": 12,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 18,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Duplikist",
+            "subclass_power_img_credit": "Created by Ben Davis from NounProject.com",
+            "subclass_power_description": "Being able to split into multiple instances of self while creating mirages, the Duplikist can maintain several aspects of the battlefield simultaneously.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 6,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Power",
+                    "level": 12,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 18,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Doppelganger",
+            "subclass_tech_img_credit": "Created by ProSymbols from NounProject.com",
+            "subclass_tech_description": "Developing skills meant to deceive and dissuade, the Doppelganger excels at mimickry and sowing confusion.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 6,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Tech",
+                    "level": 12,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 18,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Psiblade",
+            "class_img_credit": "Sword And Shield by Firza Alamsyah from NounProject.com",
+            "description": "A defense focused warrior wielding a powerful blade and an attuned spirit.  ",
+            "description_long_str": "Honing their gifts to increase their awareness, the Psiblade are among the most dedicated and devout warriors in existence.  ",
+            "class_type": "Secondary Magic Martial",
+            "primary_ability": "Dex",
+            "hit_die": 10,
+            "hit_die_average_int": 6,
+            "proficiencies_armor": "Light Mundane Armors, Light Magical Armors, Medium Mundane Armors, Medium Magical Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Magical Weapons, Martial Mundane Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Dex, Cha",
+            "proficiencies_skills": "Choose any two, one of which must be Dexterity based.  ",
+            "equipment_armor": "One Light Mundane or Medium Mundane Armor",
+            "equipment_weapons": "Any two Mundane Weapons",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Apostle's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 3,
+            "consumables_known_per_level": 0.5,
+            "consumables_points_per_level": 0.5,
+            "consumables_max_per_level_denominator": 6,
+            "class_feats": [
+                {
+                    "name": "Magical Boons",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Boons as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Boon that you qualify for if your total number of Boons is less than the Sustainables Known for your level.  You may also swap an existing Boon for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 3
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 6
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 9
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 12
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 15
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 18
+                },
+                {
+                    "name": "Stoic Defense",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Reactions equal to your Proficiency Bonus.  When you are targeted by an Attack, you may use a Reaction to increase your AC by an amount equal to half your Proficiency Bonus rounded up.  If the attack still hits, you may reduce the incoming damage by an amount equal to your Proficiency Bonus.  <br><br>At level 10, if the attack misses when you use Stoic Defense (regardless of whether it would have hit without Stoic Defense), you may deal damage equal to your Proficiency Bonus to the attacker.  "
+                },
+                {
+                    "name": "Stoic Defense",
+                    "level": 10
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 7, 13, and 19.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 7
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 13
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 19
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 20
+                },
+                {
+                    "name": "Kinetic Surge",
+                    "level": 5,
+                    "mechanics_str": "You are able to alter the kinetic energy in the heat of battle to protect your allies and harm your enemies.  When a target within 60 feet of you is hit by an attack, as a Reaction, you may choose to add an additional modifier to the damage roll of that attack.  The modifier is equal to twice your Proficiency Bonus, and you choose whether it is positive or negative.  If you are the one making the attack, you may choose to use this feature as a Bonus Action instead.  You may use this feature a number of times equal to your Proficiency Bonus between Long Rests.  <br><br>At level 16, you may use Kinetic Surge multiple times as part of the same Reaction given each use is affecting the same attack.  <br><br>At level 20, when you use Kinetic Surge to reduce damage, you grant resistance to the remaining damage.  When you use your Kinetic Surge to deal additional damage, you ignore the target's Resistance and Immunities.  "
+                },
+                {
+                    "name": "Kinetic Surge",
+                    "level": 16
+                },
+                {
+                    "name": "Kinetic Surge",
+                    "level": 20
+                }
+            ],
+            "subclass_magic_name": "Specter",
+            "subclass_magic_img_credit": "Created by NeMaria from NounProject.com",
+            "subclass_magic_description": "Harnessing innate abilities that have soaked into their souls, the Specter is able to manipulate matter to better equip themselves for battle.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Wisdom.  You use your Wisdom modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Divine Blade",
+                    "level": 7,
+                    "mechanics_str": "You are able to bond with a weapon, imbuing it with magical power that answers only to you.  Over the course of a Short Rest, you may attune to any one weapon with which you are proficient.  The weapon has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Magical, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Magical, only the higher bonus takes effect.  </li><li><b>Bound:</b>  The weapon can be magically summoned into your hand at any point out of combat or during your turn.  </li><li><b>Damage:</b>  When you bond with the weapon, you may choose Luminous or Cryogenic damage to replace the original damage type.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Divine Shield",
+                    "level": 13,
+                    "mechanics_str": "You are able to modify a shield, integrating it into your flesh and improving its effectiveness.  Over the course of a Short Rest, you may attune to any one shield with which you are proficient.  This shield has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Magical, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Magical, only the higher bonus takes effect.  </li><li><b>Bound:</b>  The shield can be magically summoned into your hand at any point out of combat or during your turn.  While summoned, you must wield it with your hands as normal for a shield of that type.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Divine Kinesis",
+                    "level": 19,
+                    "mechanics_str": "Your Kinetic Surge now includes your Spellcasting Ability Modifier in the damage calculation.  Your Kinetic Surge can now deal Luminous or Cryogenic damage instead.  When you roll Initiative and have no uses of Kinetic Surge remaining, you gain two uses.  "
+                }
+            ],
+            "subclass_power_name": "Guardian",
+            "subclass_power_img_credit": "Created by Jordy Madueno from NounProject.com",
+            "subclass_power_description": "Embracing their divine gifts, the Guardian rounds out their boons with knowledge of spellcasting and magical weaponry.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Charisma.  You use your Charisma modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Energy Blade",
+                    "level": 7,
+                    "mechanics_str": "You are able to bond with a weapon, immolating it at the molecular level so it might be called upon later at will.  Over the course of a Short Rest, you may attune to any one weapon with which you are proficient.  The weapon has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Superpowered, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Superpowered, only the higher bonus takes effect.  </li><li><b>Manifested:</b>  The weapon can be manifested into your hand at any point out of combat or during your turn.  </li><li><b>Damage:</b>  When you bond with the weapon, you may choose Kinetic or Radiation damage to replace the original damage type.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Energy Shield",
+                    "level": 13,
+                    "mechanics_str": "You are able to modify a shield, immolating it at the molecular level so it might be called upon later at will.  Over the course of a Short Rest, you may attune to any one shield with which you are proficient.  This shield has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Superpowered, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Superpowered, only the higher bonus takes effect.  </li><li><b>Manifested:</b>  The shield can be manifested into your hand at any point out of combat or during your turn.  While manifested, you must wield it with your hands as normal for a shield of that type.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Energy Kinesis",
+                    "level": 19,
+                    "mechanics_str": "Your Kinetic Surge now includes your Powercasting Ability Modifier in the damage calculation.  Your Kinetic Surge can now deal Kinetic or Radiation damage instead.  When you roll Initiative and have no uses of Kinetic Surge remaining, you gain two uses.  "
+                }
+            ],
+            "subclass_tech_name": "Augmentist",
+            "subclass_tech_img_credit": "Created by H Alberto Gongora from NounProject.com",
+            "subclass_tech_description": "Choosing to focus on improving themselves so they might not always rely on the gods, the Augmentist employs gadgets and cybernetic modifications to impose a unique battlefield presence.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Cybernetic Blade",
+                    "level": 7,
+                    "mechanics_str": "You are able to modify a weapon, integrating it into your flesh and improving its effectiveness.  Over the course of a Short Rest, you may attune to any one weapon with which you are proficient.  This weapon has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Technological, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Technological, only the higher bonus takes effect.  </li><li><b>Integrated:</b>  The weapon can be extended and retracted at any point out of combat or during your turn.  While extended, you must wield it as normal for an item of that type, but you cannot be unwillingly disarmed.  While retracted, it is entirely undetectable.  </li><li><b>Damage:</b>  When you bond with the weapon, you may choose Incinerating or Electrocuting damage to replace the original damage type.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Cybernetic Shield",
+                    "level": 13,
+                    "mechanics_str": "You are able to modify a shield, integrating it into your flesh and improving its effectiveness.  Over the course of a Short Rest, you may attune to any one shield with which you are proficient.  This shield has the following traits while wielded by you:  <ul><li><b>Enhanced:</b>  If the original item is Mundane, the item now counts as Technological, and gains a bonus equal to half your Proficiency Bonus rounded down.  If the original item is Technological, only the higher bonus takes effect.  </li><li><b>Integrated:</b>  The shield can be extended and retracted at any point out of combat or during your turn.  While extended, you must wield it as normal for an item of that type, but you cannot be unwillingly disarmed.  While retracted, it is entirely undetectable.  </li><li><b>Attunement:</b>  If the original item typically requires attunement, this item does not.  </li></ul>"
+                },
+                {
+                    "name": "Cybernetic Kinesis",
+                    "level": 19,
+                    "mechanics_str": "Your Kinetic Surge now includes your Techcasting Ability Modifier in the damage calculation.  Your Kinetic Surge can now deal Incinerating or Electrocuting damage instead.  When you roll Initiative and have no uses of Kinetic Surge remaining, you gain two uses.  "
+                }
+            ]
+        },
+        {
+            "name": "Annointed",
+            "class_img_credit": "Spartan Helmet by sandi from NounProject.com",
+            "description": "Magically imbued powerhouses who dominate as champions of the gods.  ",
+            "description_long_str": "Blessed and bolstered by ancient magic, the Annointed perfectly balances destroying their enemies and protecting their allies.  ",
+            "class_type": "Primary Magic Martial",
+            "primary_ability": "Str",
+            "hit_die": 12,
+            "hit_die_average_int": 7,
+            "proficiencies_armor": "Light Mundane Armors, Light Magical Armors, Medium Mundane Armors, Medium Magical Armors, Heavy Mundane Armors, Heavy Magical Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Magical Weapons, Martial Mundane Weapons, Martial Magical Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Str, Wis",
+            "proficiencies_skills": "Choose any two, one of which must be Strength or Wisdom based.  ",
+            "equipment_armor": "Molded Plate (Bronze) and a Shield (Bronze)",
+            "equipment_weapons": "Any two Mundane Martial Weapons",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Warrior's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 2,
+            "consumables_known_per_level": 0.25,
+            "consumables_points_per_level": 0.25,
+            "consumables_max_per_level_denominator": 8,
+            "class_feats": [
+                {
+                    "name": "Magical Boons",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Boons as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Boon that you qualify for if your total number of Boons is less than the Sustainables Known for your level.  You may also swap an existing Boon for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 2
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 4
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 6
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 8
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 10
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 12
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 14
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 16
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 18
+                },
+                {
+                    "name": "Magical Boons",
+                    "level": 20
+                },
+                {
+                    "name": "Blessed Strikes",
+                    "level": 1,
+                    "mechanics_str": "You can add your Proficiency Bonus to the damage of your Attacks made with Unarmed Strikes or Magical Weapons.  <br><br>At level 13, when you take the Attack Action, you can choose to add additional damage to all of your Attacks that benefit from Blessed Strikes until the start of your next turn.  This additional damage is equal to your Proficiency Bonus.  You may use this feature a number of times equal to your Proficiency Bonus between Long Rests.  <br><br>At level 20, your limited use Blessed Strikes now deal double your Proficiency Bonus and can be used a number of times equal to twice your Proficiency Bonus between Long Rests.  "
+                },
+                {
+                    "name": "Blessed Strikes",
+                    "level": 13
+                },
+                {
+                    "name": "Blessed Strikes",
+                    "level": 20
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 3,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 9 and 17.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 9
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 7
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 15
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                }
+            ],
+            "subclass_magic_name": "Infused",
+            "subclass_magic_img_credit": "Created by Pau Urquijo from NounProject.com",
+            "subclass_magic_description": "Subclass Description",
+            "subclass_magic_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Intelligence.  You use your Intelligence modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Magic Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Magical Weapons now qualify as Unarmed Strikes for the purposes of applying your class features.  "
+                },
+                {
+                    "name": "Magic Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Magic based effects. In addition, any Magic based attack roll (Spellcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ],
+            "subclass_power_name": "Supreme",
+            "subclass_power_img_credit": "Created by Sumit Saengthong from NounProject.com",
+            "subclass_power_description": "Subclass Description",
+            "subclass_power_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Intelligence.  You use your Intelligence modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Power Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Superpowered Weapons now qualify as Unarmed Strikes for the purposes of applying your class features.  "
+                },
+                {
+                    "name": "Power Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Superpower based effects. In addition, any Superpower based attack roll (Powercasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ],
+            "subclass_tech_name": "Adaptist",
+            "subclass_tech_img_credit": "Created by Mike Rowe from NounProject.com",
+            "subclass_tech_description": "Subclass Description",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Tech Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Technological Weapons now qualify as Unarmed Strikes for the purposes of applying your class features.  "
+                },
+                {
+                    "name": "Tech Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Tech based effects. In addition, any Tech based attack roll (Techcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ]
+        },
+        {
+            "name": "Nova",
+            "class_img_credit": "Created by Eucalyp from NounProject.com",
+            "description": "Energy wielders that can summon defensive fields and unleash devastating blasts.  ",
+            "description_long_str": "Possessing a massive reservoir of internalized energy, the Nova can unleash destructive beams and construct protective fields to manipulate the battlefield.  ",
+            "class_type": "Primary Power Caster",
+            "primary_ability": "Cha",
+            "hit_die": 6,
+            "hit_die_average_int": 4,
+            "proficiencies_armor": "None",
+            "proficiencies_weapons": "Simple Mundane Weapons",
+            "proficiencies_tools": "Choose any two",
+            "saves": "Wis, Cha",
+            "proficiencies_skills": "Choose any two, one of which must be Charisma based",
+            "equipment_armor": "None",
+            "equipment_weapons": "Any Simple Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Vagabond's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 8,
+            "consumables_known_per_level": 2,
+            "consumables_points_per_level": 2,
+            "consumables_max_per_level_denominator": 2,
+            "class_feats": [
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Powers list.  <ul><li><b>Powers Known:</b>  Your total number of Powers known at each level is shown in the Powers Known column of the Class table.  You may not learn a Power of a level higher than your Max Power Level, and you may learn a Power at the same time you learn its prerequisite.  </li><br><li><b>Power Points:</b>  You have a number of Power Points based on your Class level as shown in the Power Points column of the Class table.  You expend these Power Points to cast Superpowers.  You regain all expended Power Points when you finish a Long Rest.  </li><br><li><b>Max Power Level:</b>  Many Powers can be overpowered, consuming more Power Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Visionary table.  You may only cast Powers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Wisdom.  You use your Wisdom modifier whenever a Power refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Power you cast and when making an attack roll with one.  </li><br><li><b>Power save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Power attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 3
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 5
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 9
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 11
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 15
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 17
+                },
+                {
+                    "name": "Metapowers Milestone",
+                    "level": 1,
+                    "mechanics_str": "Choose two of the following Metapowers.  When you cast a Superpower, you may choose to add the chosen effect for this casting only:  <ul><li><b>Distant:</b>  The Superpower's range is doubled to a minimum of 30 feet.  </li><li><b>Careful:</b>  A number of creatures up to your Powercasting Modifier that would be affected by the Superpower are not affected.  </li><li><b>Potent:</b>  You may deal damage equal to your Powercasting Ability Modifier to every creature that is affected by the Superpower upon casting it.  </li><li><b>Focused:</b>  Targets have disadvantage on their Saving Throw against this Superpower until the end of your turn.  </li><li><b>Innate:</b>  No components other than Material components which have an explicit cost are required for this casting of the Superpower.  </li><li><b>Extended:</b>  The Superpower's duration is tripled to a minimum of 1 hour.  </li><li><b>Quickened:</b>  The Superpower's casting time is quartered, to a minimum of 1 Action (Superpowers with a casting time of 1 Action are reduced to 1 Bonus Action)  </li><li><b>Twinned:</b>  A Superpower that only targets one creature also targets a second creature of your choice as normal.  </li></ul>You may only apply a Metapower to your Superpowers a number of times equal to twice your Proficiency Bonus between Long Rests.  <br><br>You learn two additional Metapowers at levels 12 and 18.  On each level up, you may also swap one chosen Metapower for another.  "
+                },
+                {
+                    "name": "Metapowers Milestone",
+                    "level": 12
+                },
+                {
+                    "name": "Metapowers Milestone",
+                    "level": 18
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 8
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 16
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 6
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 10
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                },
+                {
+                    "name": "Quasimortal Attainment",
+                    "level": 20,
+                    "mechanics_str": "Choose one of your Metapowers.  You may now apply that Metapower to your Superpowers without it counting against your number of used Metapowers between Long Rests.  Other Metapowers are still counted as normal.  "
+                }
+            ],
+            "subclass_magic_name": "Luminent",
+            "subclass_magic_img_credit": "Explode by Victoruler from NounProject.com",
+            "subclass_magic_img_source": "https://thenounproject.com/icon/explode-3128944/",
+            "subclass_magic_description": "Having come across extraplanar forces in some manner, the Luminent has taken on powerful otherworldly attributes that draw on their natural power reserves.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 8,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 16,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Refractionist",
+            "subclass_power_img_credit": "Created by Fernando Affonso from NounProject.com",
+            "subclass_power_description": "Possessing deeply rooted reserves of energy, the Refractionist has benefitted from long term physiological mutations to make good use of that energy.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 8,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 16,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Galvanic",
+            "subclass_tech_img_credit": "Created by Eucalyp from NounProject.com",
+            "subclass_tech_description": "By allowing some of their excess energy serve as a power source, the Galvanic is able to augment their abilities with ordinary modern technology that wouldn't be feasible due to power limitations under nearly any other circumstances.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 8,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 16,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Subvertist",
+            "class_img_credit": "Created by Romain Bernard from NounProject.com",
+            "description": "A movement focused master of misdirection who excels at battfield cleanup.  ",
+            "description_long_str": "With a razor sharp focus on mobility and agility, the Subvertist thrives when protecting civilians and distracting enemies.  ",
+            "class_type": "Secondary Power Caster",
+            "primary_ability": "Wis",
+            "hit_die": 8,
+            "hit_die_average_int": 5,
+            "proficiencies_armor": "Light Mundane Armors, Light Superpowered Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Superpowered Weapons",
+            "proficiencies_tools": "Choose any three",
+            "saves": "Cha, Dex",
+            "proficiencies_skills": "Choose any two, one of which must be Wisdom based",
+            "equipment_armor": "None",
+            "equipment_weapons": "Any Simple Mundane Weapon",
+            "equipment_tools": "Three tools with which you are proficient",
+            "equipment_packs": "One Vagabond's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 6,
+            "consumables_known_per_level": 1,
+            "consumables_points_per_level": 1,
+            "consumables_max_per_level_denominator": 3,
+            "class_feats": [
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 1,
+                    "mechanics_str": "You have manifested powers beyond that of ordinary creatures.  See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn a number of leveled Superpowers of your choice at first level and at subsequent levels as shown in the Superpowers Known column of the Class table, and you know a number of cantrips equal to half your Max Superpower level rounded up.  You may not learn a Superpower of a level higher than your Max Superpower Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Power Points:</b>  You have a number of Power Points equal to your Class level x 8, as shown in the Power Points column of the Class table, + your Int modifier.  You expend these Power Points to cast Superpowers.  You regain all expended Power Points when you finish a Long Rest.  </li><br><li><b>Max Power Level:</b>  Many Superpowers can be overpowered, consuming more Power Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Wisdom.  You use your Wisdom modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 4
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 7
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 10
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 13
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 16
+                },
+                {
+                    "name": "Powercasting Milestone",
+                    "level": 19
+                },
+                {
+                    "name": "Enhanced Movement",
+                    "level": 1,
+                    "mechanics_str": "Choose one of the following mobility options:  <ul><li><b>Teleportation:  </b>You may teleport as part of your movement a number of times per turn equal to your Proficiency Bonus, granted you can see the target destination.  The teleport distance can be no greater than a number of feet equal to your Proficiency Bonus * 5.  These teleports do not provoke opportunity attacks.  </li><li><b>Swinging:  </b>Your movement speed increases by an amount equal to (Class Level + Proficiency Bonus) * 5, you may cling to any solid surface as though it were normal terrain (other environmental hazards still apply, just as they would on normal terrain), and you gain a flying speed equal to your walking speed as long as there is a solid surface (GM's Discretion as to what is sturdy enough to hold your weight) within 60 feet of you, but you fall if still aloft at the end of your turn.  </li><li><b>Speed:  </b>Your movement speed increases by an amount equal to (Class Level + Proficiency Bonus) * 10, and you may move along vertical and liquid surfaces as though they were solid ground, but you fall at the end of your turn if you did not use your full movement this turn.  </li></ul>  In addition, your total number of Reactions is equal to your Proficiency Bonus, but can only affect a specific creature with a Reaction once per round.  You may make a number of Shove Attacks equal to your Powercasting Ability Modifier as a Bonus Action, and you may use the Acrobatics skill rather than Athletics when you do so.  <br><br>At level 9, you gain a following benefit based on your previous choice at level 1:  <ul><li><b>Teleportation:  </b> You are now able to telelport to places that you cannot see, but if you telelport into a solid object, the teleport fails and you take one point of exhaustion after being shunted back to your original location.  </li><li><b>Swinging:  </b>You are now able to glide through the air while falling, allowing you to move a number of feet horizontally equal to the number of feet you fall in a given turn.  This can help you keep momentum after leaving behind solid surfaces, or help you get to a place where solid surfaces are available again.  </li><li><b>Speed:  </b>You are now able to pass through solid matter as though it were difficult terrain.  If you end your turn within solid matter, you take one point of exhaustion.  </li></ul>At level 15, when a creature that you can see is the target of an Attack, you may use your Reaction to move up to half of your speed towards the creature and impose advantage or disadvantage on the Attack should you be able to get within 5 feet of them.  Immediately after the Attack is resolved, if you did not use half of your movement speed to reach the target, you can use any remaining movement speed from that pool to position yourself at your discretion.  "
+                },
+                {
+                    "name": "Enhanced Movement",
+                    "level": 9
+                },
+                {
+                    "name": "Enhanced Movement",
+                    "level": 15
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 6, 13, and 18.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 6
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 12
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 18
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 3,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You benefit from additional Ability Score Improvements at levels 5, 8, 11, 14, and 17.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Ultimate Reflexes",
+                    "level": 20,
+                    "mechanics_str": "You may take an additional turn on the first round of combat, at the Initiative order equal to your Initiative minus 10.  In addition, when Initiative is rolled, you may choose to keep your number of Reactions based on Proficiency Bonus, or you may elect to forgo that and instead gain the ability to take one Reaction per turn.  "
+                }
+            ],
+            "subclass_magic_name": "Egressor",
+            "subclass_magic_img_credit": "Created by Maxicons from NounProject.com",
+            "subclass_magic_description": "Able to transport themselves and others through spacetime, the Egressor possesses unrivalred individual mobility.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Integrated Magic",
+                    "level": 2,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Magic",
+                    "level": 6,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Magic",
+                    "level": 12,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Magic",
+                    "level": 18,
+                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
+                }
+            ],
+            "subclass_power_name": "Speedster",
+            "subclass_power_img_credit": "Created by NOVILAMISASTRA from NounProject.com",
+            "subclass_power_description": "Possessing unrivaled speed, the Speedster perceives and interacts with the battlefield on an entirely different level.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Integrated Power",
+                    "level": 2,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Power",
+                    "level": 6,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Power",
+                    "level": 12,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Power",
+                    "level": 18,
+                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
+                }
+            ],
+            "subclass_tech_name": "Neutralizer",
+            "subclass_tech_img_credit": "Disable by Pikselan from NounProject.com",
+            "subclass_tech_description": "With the ability to leap and climb in nearly any environment, the Neutralizer can lock down nearly any force on the battlefield.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Integrated Tech",
+                    "level": 2,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Improved Tech",
+                    "level": 6,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Advanced Tech",
+                    "level": 12,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                },
+                {
+                    "name": "Superior Tech",
+                    "level": 18,
+                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
+                }
+            ]
+        },
+        {
+            "name": "Metamorph",
+            "class_img_credit": "Created by iconfield from NounProject.com",
+            "description": "A versatile shapechanger that can specialize down several paths.  ",
+            "description_long_str": "Reshaping themselves to fit the needs of the situation, the Metamorph is a highly adaptive-often considered critical-component of enhanced team groups.  ",
+            "class_type": "Secondary Power Martial",
+            "primary_ability": "Con",
+            "hit_die": 10,
+            "hit_die_average_int": 7,
+            "proficiencies_armor": "Light Mundane Armors, Light Superpowered Armors, Medium Mundane Armors, Medium Superpowered Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Superpowered Weapons, Martial Mundane Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Con, Cha",
+            "proficiencies_skills": "Choose any two, one of which must be Strength based",
+            "equipment_armor": "Fitted Tunic, Lycra",
+            "equipment_weapons": "Any Simple Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Vagabond's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 3,
+            "consumables_known_per_level": 0.5,
+            "consumables_points_per_level": 0.5,
+            "consumables_max_per_level_denominator": 6,
+            "class_feats": [
+                {
+                    "name": "Power Enhancements",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Enhancements as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Enhancement that you qualify for if your total number of Enhancements is less than the Sustainables Known for your level.  You may also swap an existing Enhancement for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 3
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 6
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 9
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 12
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 15
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 18
+                },
+                {
+                    "name": "Manifest Form",
+                    "level": 1,
+                    "mechanics_str": "You are able to alter your form and manifest specific traits in order to gain the upper hand.  You can use this feature a number of times equal to your Proficiency Bonus between Long Rests.  The Form lasts for a number of hours equal to your Proficiency Bonus, and you revert early if you lose your temp hp or receive temp hp from any other source.  You have the following Form available to you:  <ul><li><b>Temp Hit Points:</b>  Con + Prof + Level.  </li><li><b>Unarmed Strikes:</b>  Your Unarmed Strikes now deal Bludgeoning, Piercing, or Slashing damage (your choice), are based on Strength or Dexterity (your choice), and deal a damage equal to a number of d4s equal to your Proficiency Bonus.  </li></ul>At level 5, you gain the following benefits while Manifest form is active:<ul><li><b>Heightened Senses:</b>  Choose a skill you are Proficient in that is based on Strength or Dexterity.  You gain Expertise in that skill while this Form is active.  </li></ul>At level 10, you gain the following benefits while Manifest form is active:<ul><li><b>Armor Class:</b>  + Prof.  </li></ul>At level 16, you gain the following benefits while Manifest form is active:<ul><li><b>Immunity:</b>  You become Immune to one damage type other than Bludgeoning, Piercing, or Slashing.  </li><li><b>Environment:</b>  You can breathe normally in any environment, and are resistant to the damage from any environmental effects.  </li></ul>At level 20, when you Manifest form, you may choose to take on any of the following attributes while the form persists:  <ul><li><b>Size:</b>  You may become one size Larger or Smaller.  </li><li><b>Saving Throws:</b>  You gain Proficiency in two Saving Throws of your choice.  </li>"
+                },
+                {
+                    "name": "Manifest Form",
+                    "level": 5
+                },
+                {
+                    "name": "Manifest Form",
+                    "level": 10
+                },
+                {
+                    "name": "Manifest Form",
+                    "level": 16
+                },
+                {
+                    "name": "Manifest Form",
+                    "level": 20
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 2,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 7, 13, and 19.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 7
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 13
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 19
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 4,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 8
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 14
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 20
+                }
+            ],
+            "subclass_magic_name": "Primal",
+            "subclass_magic_img_credit": "Created by Zach Bogart from NounProject.com",
+            "subclass_magic_description": "Possessing a gene that rapidly accelerates the process of evolution through individual and instantaneous mutations, the Primal is among the most intimidating and difficult beings to kill.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Wisdom.  You use your Wisdom modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Beast Form",
+                    "level": 7,
+                    "mechanics_str": "When you Manifest Form, you may choose to take on the physical appearance of a sapien animal hybrid such as a Werewolf, Harpy, or other aesthetic combination of your choice.  When you Manifest Form, you may take on any of these attributes in addition to the normal effects:  <ul><li><b>Unarmed Strikes:</b>  Your Unarmed Strikes deal d6s rather than d4s, and are considered Adamantine.  </li><li><b>Aquatic:</b>  You gain a Swimming Speed equal to your Walking Speed and can breathe normally underwater.  </li><li><b>Pounce:</b>  You may use a Bonus Action to leap through the air a number of feet equal to Prof * 5.  This Pounce does not count against your total movement.  </li><li><b>Instinctual:</b>  You may choose any Wisdom based skill for the Manifest Form's Expertise feature.  </li>"
+                },
+                {
+                    "name": "Relentless Healing",
+                    "level": 13,
+                    "mechanics_str": "Your Healing Factor remains active while you have less than your maximum Hit Points.  In addition, you are able to regenerate any missing body parts given sufficient time.  Regenerating a hand or foot takes five minutes, while an entire arm or leg takes an hour.  The GM will determine the amount of time needed for regeneration based on the specific injury using these guidelines.  "
+                },
+                {
+                    "name": "Predator",
+                    "level": 19,
+                    "mechanics_str": "Your Beast Form Unarmed Strikes deal d8s instead of d6s.  In addition, You may make an Attack as part of your Beast Form's Pounce Bonus Action.  "
+                }
+            ],
+            "subclass_power_name": "Demibeast",
+            "subclass_power_img_credit": "Created by Amethyst Studio from NounProject.com",
+            "subclass_power_description": "Whether sent as a savior or cursed with a terrible affliction, the Phoenix can manifest a singular powerful magical form that evokes an awe remiscent of that in the oldest of mythos.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Intelligence.  You use your Intelligence modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Divine Form",
+                    "level": 7,
+                    "mechanics_str": "When you Manifest Form, you may choose to take on the form of a magical flying creature such as a Phoenix, Dragon, Demon, or Angel.  When you Manifest Form, you may take on any of these attributes in addition to the normal effects:  <ul><li><b>Radiance:</b>  Your Unarmed Strikes have a range of 20/60, and can deal Incinerating, Cryogenic, or Corrosive damage.  </li><li><b>Speed:</b>  You gain a Flying Speed equal to your Walking Speed + (Prof Bonus * 5).  </li><li><b>Reciprocity:</b>  When you use your Healing Factor Bonus Action, rather than heal yourself, you can instead choose to heal or harm a target within 10 feet of you for an equal amount.  If you choose to harm, the damage takes effect without an Attack roll or Saving Throw, and has no damage type (cannot be resisted or negated, granted the target is capable of taking damage in the first place).  </li><li><b>Transcendence:</b>  You may choose any Intelligence based skill for the Manifest Form's Expertise feature.  </li>"
+                },
+                {
+                    "name": "Word of Power",
+                    "level": 13,
+                    "mechanics_str": "You can understand all languages, and all creatures capable of understanding a language can understand you.  As a Bonus Action, you may force a target within 120 feet of you that can hear you to make a Charisma Saving Throw.  On a success, the creature has disadvantage on Attacks against you until the end of your next turn and is otherwise immune to this feature until the end of your next Long Rest.  On a failure, the creature is Frightened of you for one minute.  "
+                },
+                {
+                    "name": "Divine Strikes",
+                    "level": 19,
+                    "mechanics_str": "Your Divine Form Unarmed Strikes now have a range of 40/120 and can deal Psionic damage.  In addition, your Reciprocity feature heals / harms double the standard amount.  "
+                }
+            ],
+            "subclass_tech_name": "Splicer",
+            "subclass_tech_img_credit": "Created by H Albert Gongora from NounProject.com",
+            "subclass_tech_description": "Whether through extensive training or advanced technological guidance, the Splicer is able to more accurately control their transformations and take on a myriad of specific forms.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 2,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Charisma.  You use your Charisma modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Sapien Form",
+                    "level": 7,
+                    "mechanics_str": "When you Manifest Form, you may choose to take on the physical appearance of any sapien creature you choose.  You are able to manifest clothing and other worn items, but not items to be held.  You may take on an appearance derived from your imagination, or imitate a sapien you have seen.  If you imitate a sapien you have seen, your form is indistinuishable from the original.  You have advantage on all Charisma checks made to pass yourself off as this new identity, and may choose any Charisma based skill for the Manifest Form's Expertise feature.  "
+                },
+                {
+                    "name": "Neural Download",
+                    "level": 13,
+                    "mechanics_str": "You may use an Action to force a creature you can touch to make an Intelligence Saving Throw, the DC of which is equal to 8 + your Con Mod + your Prof Bonus.  On a success, the creature is unaffected.  On a failure, you learn the information necessary to pass yourself off as this creature flawlessly (no Deception check required), along with any important knowledge the creature might have, such as passwords or the location of a secret base.  You may use this feature once per Long Rest.  "
+                },
+                {
+                    "name": "Doppelganger",
+                    "level": 19,
+                    "mechanics_str": "You can modify your appearance as described in Sapien Form feature at will.  You do not gain any of the other benefits unless you use your Manifest Form feature.  "
+                }
+            ]
+        },
+        {
+            "name": "Dynamo",
+            "class_img_credit": "Punch by Smalllike from NounProject.com",
+            "description": "Utter powerhouses that rely on brute force to break down and destroy their enemies.  ",
+            "description_long_str": "Wielding raw physical power, the Dynamo thrives when decimating powerful foes and hordes alike.   ",
+            "class_type": "Primary Power Martial",
+            "primary_ability": "Str",
+            "hit_die": 12,
+            "hit_die_average_int": 7,
+            "proficiencies_armor": "Light Mundane Armors, Light Superpowered Armors, Medium Mundane Armors, Medium Superpowered Armors, Heavy Mundane Armors, Heavy Superpowered Armors",
+            "proficiencies_weapons": "Simple Mundane Weapons, Simple Superpowered Weapons, Martial Mundane Weapons, Martial Superpowered Weapons",
+            "proficiencies_tools": "Choose any one",
+            "saves": "Str, Con",
+            "proficiencies_skills": "Choose any two, one of which must be Strength based",
+            "equipment_armor": "Fitted Tunic, Lycra",
+            "equipment_weapons": "Any Simple Mundane Weapon",
+            "equipment_tools": "One tool with which you are proficient",
+            "equipment_packs": "One Vagabond's Pack",
+            "equipment_variant": "5d4 x 100 GC",
+            "sustainables_known_denominator": 2,
+            "consumables_known_per_level": 0.25,
+            "consumables_points_per_level": 0.25,
+            "consumables_max_per_level_denominator": 8,
+            "class_feats": [
+                {
+                    "name": "Power Enhancements",
+                    "level": 1,
+                    "mechanics_str": "You have a number of Enhancements as shown in the Sustainables Known column of the class table.  Upon reaching this and subsequent levels, you gain a new Enhancement that you qualify for if your total number of Enhancements is less than the Sustainables Known for your level.  You may also swap an existing Enhancement for another of your choice that you qualify for upon each level up.  "
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 2
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 4
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 6
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 8
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 10
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 12
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 14
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 16
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 18
+                },
+                {
+                    "name": "Power Enhancements",
+                    "level": 20
+                },
+                {
+                    "name": "Mach Punch",
+                    "level": 1,
+                    "mechanics_str": "Your Unarmed Strikes deal 1d6 + your Strength Modifier bludgeoning damage, and you can make an Unarmed Strike as a Bonus Action.  When you deal damage with an Unarmed Strike, you can deal additional damage equal to a number of d6s equal to your level.  You can only deal this damage once per turn.  <br><br>At level 13, when you reduce a creature to zero hit points with Mach Punch damage, you may apply the remaining damage to a creature within five feet of the original target if the new target is also within your reach and the original attack roll would also hit the new target.  You can move after making the initial attack to get within reach of another creature in order to satisfy the range requirement.  This can chain indefinitely until the Mach Punch damage has been used up or you have no more movement.  <br><br>At 20th level, when you reduce a creature to zero hit points using Mach Punch damage and apply the remaining damage to another creature, roll an additional 2d6 and add it to the remaining damage.  This can chain and stack indefinitely until the Mach Punch damage has been used up or you have no more movement.  "
+                },
+                {
+                    "name": "Mach Punch",
+                    "level": 13
+                },
+                {
+                    "name": "Mach Punch",
+                    "level": 20
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 3,
+                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Consumable Milestone at this level, and an additional Consumable Milestone at levels 7, 13, and 19.  "
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 9
+                },
+                {
+                    "name": "Subclass Feature",
+                    "level": 17
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 5,
+                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  "
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 7
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 11
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 15
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "level": 19
+                }
+            ],
+            "subclass_magic_name": "Meteor",
+            "subclass_magic_img_credit": "Created by Anton Barbarov from NounProject.com",
+            "subclass_magic_description": "Wielding power that registers on the stellar scale, the Meteor has the potential to be a force of unbridled destruction.  ",
+            "subclass_magic_feats": [
+                {
+                    "name": "Powercasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Powercasting mechanics and Superpowers list.  <ul><li><b>Superpowers Known:</b>  You learn Superpowers of your choice as shown in the Consumables Known column of the class table.  You may not learn a Superpower of a level higher than your Max Consumable Level, and you may learn a Superpower at the same time you learn its prerequisite.  </li><br><li><b>Superpower Points:</b>  You have a number of Superpower Points as shown in the Consumable Points column of the class table.  You expend these Superpower Points to cast Superpowers.  You regain all expended Superpower Points when you finish a Long Rest.  </li><br><li><b>Max Superpower Level:</b>  Many Superpowers can be overpowered, consuming more Superpower Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Superpowers at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Powercasting Ability:</b>  Your Powercasting ability is Intelligence.  You use your Intelligence modifier whenever a Superpower refers to your Powercasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Superpower you cast and when making an attack roll with one.  </li><br><li><b>Superpower save DC</b> = 8 + your Proficiency Bonus + your Powercasting ability modifier.  </li><br><li><b>Superpower attack modifier</b> = your Proficiency Bonus + your Powercasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Power Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Superpowered Weapons now qualify for Mach Punch damage.  "
+                },
+                {
+                    "name": "Power Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Superpower based effects. In addition, any Superpower based attack roll (Powercasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ],
+            "subclass_power_name": "Chosen",
+            "subclass_power_img_credit": "Created by Maxicons from NounProject.com",
+            "subclass_power_description": "Harnessing energy that would devour mere mortals, the Chosen mightily bends magic to their will.  ",
+            "subclass_power_feats": [
+                {
+                    "name": "Spellcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Spellcasting mechanics and Spells list.  <ul><li><b>Spells Known:</b>  You learn Spells of your choice as shown in the Consumables Known column of the class table.  You may not learn a Spell of a level higher than your Max Consumable Level, and you may learn a Spell at the same time you learn its prerequisite.  </li><br><li><b>Spell Points:</b>  You have a number of Spell Points as shown in the Consumable Points column of the class table.  You expend these Spell Points to cast Spells.  You regain all expended Spell Points when you finish a Long Rest.  </li><br><li><b>Max Spell Level:</b>  Many Spells can be overpowered, consuming more Spell Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Spells at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Spellcasting Ability:</b>  Your Spellcasting ability is Intelligence.  You use your Intelligence modifier whenever a Spell refers to your Spellcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Spell you cast and when making an attack roll with one.  </li><br><li><b>Spell save DC</b> = 8 + your Proficiency Bonus + your Spellcasting ability modifier.  </li><br><li><b>Spell attack modifier</b> = your Proficiency Bonus + your Spellcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Magic Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Magical Weapons now qualify for Mach Punch damage.  "
+                },
+                {
+                    "name": "Magic Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Magic based effects. In addition, any Magic based attack roll (Spellcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ],
+            "subclass_tech_name": "Militant",
+            "subclass_tech_img_credit": "Created by Icongeek26 from NounProject.com",
+            "subclass_tech_description": "Honing their immense strength with training and discipline, the Militant balances their power with resourcefulness.  ",
+            "subclass_tech_feats": [
+                {
+                    "name": "Techcasting",
+                    "level": 3,
+                    "mechanics_str": "See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  You learn Technologies of your choice as shown in the Consumables Known column of the class table.  You may not learn a Technology of a level higher than your Max Consumable Level, and you may learn a Technology at the same time you learn its prerequisite.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points as shown in the Consumable Points column of the class table.  You expend these Tech Points to cast Technologies.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Consumable Level column of the class table.  You may only cast Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                },
+                {
+                    "name": "Tech Weapon Application",
+                    "level": 9,
+                    "mechanics_str": "Attacks using Strength made with Technological Weapons now qualify for Mach Punch damage.  "
+                },
+                {
+                    "name": "Tech Resilience",
+                    "level": 17,
+                    "mechanics_str": "You have advantage on all saving throws against Tech based effects. In addition, any Tech based attack roll (Techcasting, not regular attacks) has disadvantage to hit you.  "
+                }
+            ]
+        }
+    ]
+}
