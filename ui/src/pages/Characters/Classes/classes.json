@@ -2,116 +2,241 @@
     "entries": [
         {
             "name": "Visionary",
-            "class_img_credit": "Created by VINZENCE STUDIO from NounProject.com",
-            "description": "An armored sentinel wielding unique technology beyond the cutting edge.  ",
-            "description_long_str": "Armed with the most advanced arsenal of devices and weapons of the era, the Visionary is a durable and versatile Primary Techcaster who contributes to combat and excels at utility.  ",
+            "descriptions": {
+                "short": "An armored sentinel wielding unique technology beyond the cutting edge.  ",
+                "overview": "Armed with the most advanced arsenal of devices and weapons of the era, the Visionary is a durable and versatile Primary Techcaster who contributes to combat and excels at utility.  ",
+                "primary": {
+                    "heading": "Technological Intuition",
+                    "content": "You've always had a knack for gadgets and gizmos"
+                },
+                "secondary": {
+                    "heading": "A Life of Innovation",
+                    "content": "You've managed to accomplish technological marvels that propel your era forward"
+                }
+            },
             "class_type": "Primary Tech Caster",
             "primary_ability": "Int",
             "hit_die": 6,
-            "hit_die_average_int": 4,
-            "proficiencies_armor": "None",
-            "proficiencies_weapons": "Simple Mundane Weapons",
-            "proficiencies_tools": "Inventor's Tools, any two of your choice",
-            "saves": "Int, Wis",
-            "proficiencies_skills": "Choose any three",
-            "equipment_armor": "Forged Plate, Steel",
-            "equipment_weapons": "Any Simple Technological Weapon",
-            "equipment_tools": "One tool with which you are proficient",
-            "equipment_packs": "One Inventor's Pack",
-            "equipment_variant": "5d4 x 100 GC",
-            "sustainables_known_denominator": 8,
+            "proficiencies": {
+                "armor": [
+                    "none"
+                ],
+                "weapons": [
+                    "Simple Mundane Weapons"
+                ],
+                "tools": [
+                    "Inventor's Tools",
+                    "any two of your choice"
+                ],
+                "saves": [
+                    "Int",
+                    "Wis"
+                ],
+                "skills": {
+                    "count": 3,
+                    "options": [
+                        "Any"
+                    ]
+                }
+            },
+            "equipment": {
+                "armor": "Forged Plate, Steel",
+                "weapons": "Any Simple Technological Weapon",
+                "tools": "One tool with which you are proficient",
+                "packs": "One Inventor's Pack",
+                "variant": "5d4 x 100 GC"
+            },
             "consumables_known_per_level": 2,
             "consumables_points_per_level": 2,
             "consumables_max_per_level_denominator": 2,
-            "class_feats": [
+            "class_table": [
                 {
-                    "name": "Techcasting Milestone",
                     "level": 1,
-                    "mechanics_str": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                    "persistent_abilities_known": 0,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone",
+                            "desc": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                        },
+                        {
+                            "name": "Augmented Armor",
+                            "desc": "Your inventive pursuits have led to you employ an advanced suit of technology that serves as a conduit for your Techcasting.  You gain Augmented Armor, which can be activated for a predefined duration a number of times equal to your Intelligence Modifier between Long Rests.  The traits you gain while the Augmented Armor is active are as follows:  <ul><li><b>Activation:  </b>As a Bonus Action, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Duration:  </b>Your Augmented Armor lasts for a number of minutes equal to your Intelligence Modifier</li><li><b>Armor Class:  </b>You gain an Armor Class bonus equal to your Intelligence Modifier.  </li><li><b>Strength:  </b>Your Strength score becomes equal to your Intelligence score as long as it is not already higher.  </li><li><b>Casting Focus:  </b>You can use the Augmented Armor as a Techcasting focus for your Visionary spells.  </li><li><b>Irremovable:  </b>The Augmented Armor attaches to you and can't be removed against your will.  </li><li><b>Augmentation:  </b>The Augmented Armor expands to cover your entire body, replacing any missing limbs and functioning identically to a limb it replaces.  </li></ul>At level 12, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a Reaction when you are hit by an Attack or forced to make a Saving Throw, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to half of your Intelligence score (rounded down) if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of hours equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>At level 18, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a part of any Action, Bonus Action, or Reaction you take, you can don or doff the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Casting Focus:  </b>You are always considered to possess a Techcasting focus as components of the Augmented Armor dynamically deploy and retract as needed.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to your Intelligence score if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of days equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>"
+                        }
+                    ]
                 },
                 {
-                    "name": "Techcasting Milestone",
-                    "level": 3
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 5
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 7
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 9
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 11
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 13
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 15
-                },
-                {
-                    "name": "Techcasting Milestone",
-                    "level": 17
-                },
-                {
-                    "name": "Augmented Armor",
-                    "level": 1,
-                    "mechanics_str": "Your inventive pursuits have led to you employ an advanced suit of technology that serves as a conduit for your Techcasting.  You gain Augmented Armor, which can be activated for a predefined duration a number of times equal to your Intelligence Modifier between Long Rests.  The traits you gain while the Augmented Armor is active are as follows:  <ul><li><b>Activation:  </b>As a Bonus Action, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Duration:  </b>Your Augmented Armor lasts for a number of minutes equal to your Intelligence Modifier</li><li><b>Armor Class:  </b>You gain an Armor Class bonus equal to your Intelligence Modifier.  </li><li><b>Strength:  </b>Your Strength score becomes equal to your Intelligence score as long as it is not already higher.  </li><li><b>Casting Focus:  </b>You can use the Augmented Armor as a Techcasting focus for your Visionary spells.  </li><li><b>Irremovable:  </b>The Augmented Armor attaches to you and can't be removed against your will.  </li><li><b>Augmentation:  </b>The Augmented Armor expands to cover your entire body, replacing any missing limbs and functioning identically to a limb it replaces.  </li></ul>At level 12, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a Reaction when you are hit by an Attack or forced to make a Saving Throw, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to half of your Intelligence score (rounded down) if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of hours equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>At level 18, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a part of any Action, Bonus Action, or Reaction you take, you can don or doff the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Casting Focus:  </b>You are always considered to possess a Techcasting focus as components of the Augmented Armor dynamically deploy and retract as needed.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to your Intelligence score if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of days equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>"
-                },
-                {
-                    "name": "Augmented Armor",
-                    "level": 12
-                },
-                {
-                    "name": "Augmented Armor",
-                    "level": 18
-                },
-                {
-                    "name": "Subclass Feature",
                     "level": 2,
-                    "mechanics_str": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Subclass Feature",
+                            "desc": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                        }
+                    ]
                 },
                 {
-                    "name": "Subclass Feature",
-                    "level": 8
+                    "level": 3,
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
                 },
                 {
-                    "name": "Subclass Feature",
-                    "level": 16
-                },
-                {
-                    "name": "Ability Score Improvement",
                     "level": 4,
-                    "mechanics_str": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "desc": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                        }
+                    ]
                 },
                 {
-                    "name": "Ability Score Improvement",
-                    "level": 6
+                    "level": 5,
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
                 },
                 {
-                    "name": "Ability Score Improvement",
-                    "level": 10
+                    "level": 6,
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Ability Score Improvement"
+                        }
+                    ]
                 },
                 {
-                    "name": "Ability Score Improvement",
-                    "level": 14
+                    "level": 7,
+                    "persistent_abilities_known": 1,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
                 },
                 {
-                    "name": "Ability Score Improvement",
-                    "level": 19
+                    "level": 8,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Subclass Feature"
+                        }
+                    ]
                 },
                 {
-                    "name": "Renewable Energy",
+                    "level": 9,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
+                },
+                {
+                    "level": 10,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Ability Score Improvement"
+                        }
+                    ]
+                },
+                {
+                    "level": 11,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
+                },
+                {
+                    "level": 12,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Augmented Armor"
+                        }
+                    ]
+                },
+                {
+                    "level": 13,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
+                },
+                {
+                    "level": 14,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Ability Score Improvement"
+                        }
+                    ]
+                },
+                {
+                    "level": 15,
+                    "persistent_abilities_known": 2,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
+                },
+                {
+                    "level": 16,
+                    "persistent_abilities_known": 3,
+                    "class_features": [
+                        {
+                            "name": "Subclass Feature"
+                        }
+                    ]
+                },
+                {
+                    "level": 17,
+                    "persistent_abilities_known": 3,
+                    "class_features": [
+                        {
+                            "name": "Techcasting Milestone"
+                        }
+                    ]
+                },
+                {
+                    "level": 18,
+                    "persistent_abilities_known": 3,
+                    "class_features": [
+                        {
+                            "name": "Augmented Armor"
+                        }
+                    ]
+                },
+                {
+                    "level": 19,
+                    "persistent_abilities_known": 3,
+                    "class_features": [
+                        {
+                            "name": "Ability Score Improvement"
+                        }
+                    ]
+                },
+                {
                     "level": 20,
-                    "mechanics_str": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
+                    "persistent_abilities_known": 3,
+                    "class_features": [
+                        {
+                            "name": "Renewable Energy",
+                            "desc": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
+                        }
+                    ]
                 }
             ],
             "subclass_magic_name": "Glyphologist",
@@ -179,7 +304,7 @@
             "name": "Detective",
             "class_img_credit": "Created by Stijn van der Grinten from NounProject.com",
             "description": "A skilled predator that employs a wide variety of techniques to maintain the upper hand.  ",
-            "description_long_str": "Driven by an unwavering vendetta, the Detective never settles for anything less than perfection in their own performance in order to become a paragon of human capability.  ",
+            "description_long": "Driven by an unwavering vendetta, the Detective never settles for anything less than perfection in their own performance in order to become a paragon of human capability.  ",
             "class_type": "Secondary Tech Caster",
             "primary_ability": "Int",
             "hit_die": 8,
@@ -198,7 +323,7 @@
             "consumables_known_per_level": 1,
             "consumables_points_per_level": 1,
             "consumables_max_per_level_denominator": 3,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Techcasting Milestone",
                     "level": 1,
@@ -372,7 +497,7 @@
             "class_img_credit": "Target by yusuf from NounProject.com",
             "class_img_source": "https://thenounproject.com/icon/target-3741107/",
             "description": "A sharpshooting expert who surveys and strikes key enemy forces.  ",
-            "description_long_str": "With an eye for detail and the skill to hit the mark, the Marksman is a lethal addition to the battlefield at any distance.  ",
+            "description_long": "With an eye for detail and the skill to hit the mark, the Marksman is a lethal addition to the battlefield at any distance.  ",
             "class_type": "Secondary Tech Martial",
             "primary_ability": "Int",
             "hit_die": 10,
@@ -391,7 +516,7 @@
             "consumables_known_per_level": 0.5,
             "consumables_points_per_level": 0.5,
             "consumables_max_per_level_denominator": 6,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Combat Techniques",
                     "level": 1,
@@ -521,7 +646,7 @@
             "name": "Soldier",
             "class_img_credit": "Created by Becris from NounProject.com",
             "description": "A warrior who relies on martial prowess and tactical skill to lead small units.  ",
-            "description_long_str": "After countless hours of training to be the perfect weapon, the Soldier is capable of waging war on the frontline and organizing allies simultaneously.  ",
+            "description_long": "After countless hours of training to be the perfect weapon, the Soldier is capable of waging war on the frontline and organizing allies simultaneously.  ",
             "class_type": "Primary Tech Martial",
             "primary_ability": "Str",
             "hit_die": 12,
@@ -540,7 +665,7 @@
             "consumables_known_per_level": 0.25,
             "consumables_points_per_level": 0.25,
             "consumables_max_per_level_denominator": 8,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Combat Techniques",
                     "level": 1,
@@ -699,7 +824,7 @@
             "name": "Archmage",
             "class_img_credit": "Magic by Hat-Tech from NounProject.com",
             "description": "A master of magic with the largest selection of casting options at any time.  ",
-            "description_long_str": "Having studied the nature of supernatural domains of energy, the Archmage is capable of employing various magical effects and religious rituals.  ",
+            "description_long": "Having studied the nature of supernatural domains of energy, the Archmage is capable of employing various magical effects and religious rituals.  ",
             "class_type": "Primary Magic Caster",
             "primary_ability": "Wis",
             "hit_die": 6,
@@ -718,7 +843,7 @@
             "consumables_known_per_level": 2,
             "consumables_points_per_level": 2,
             "consumables_max_per_level_denominator": 2,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Spellcasting Milestone",
                     "level": 1,
@@ -874,7 +999,7 @@
             "name": "Trickster",
             "class_img_credit": "Trickster by Robert Bjurshagen from NounProject.com",
             "description": "A cunning cutthroat wielding illusions and quick daggers who can never be fully trusted.  ",
-            "description_long_str": "Wielding magic designed to deceive and distract, the Trickster can be a staggering force divider that leaves the enemy drowning in confusion.  ",
+            "description_long": "Wielding magic designed to deceive and distract, the Trickster can be a staggering force divider that leaves the enemy drowning in confusion.  ",
             "class_type": "Secondary Magic Caster",
             "primary_ability": "Cha",
             "hit_die": 8,
@@ -893,7 +1018,7 @@
             "consumables_known_per_level": 1,
             "consumables_points_per_level": 1,
             "consumables_max_per_level_denominator": 3,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Spellcasting Milestone",
                     "level": 1,
@@ -1064,7 +1189,7 @@
             "name": "Psiblade",
             "class_img_credit": "Sword And Shield by Firza Alamsyah from NounProject.com",
             "description": "A defense focused warrior wielding a powerful blade and an attuned spirit.  ",
-            "description_long_str": "Honing their gifts to increase their awareness, the Psiblade are among the most dedicated and devout warriors in existence.  ",
+            "description_long": "Honing their gifts to increase their awareness, the Psiblade are among the most dedicated and devout warriors in existence.  ",
             "class_type": "Secondary Magic Martial",
             "primary_ability": "Dex",
             "hit_die": 10,
@@ -1083,7 +1208,7 @@
             "consumables_known_per_level": 0.5,
             "consumables_points_per_level": 0.5,
             "consumables_max_per_level_denominator": 6,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Magical Boons",
                     "level": 1,
@@ -1258,7 +1383,7 @@
             "name": "Annointed",
             "class_img_credit": "Spartan Helmet by sandi from NounProject.com",
             "description": "Magically imbued powerhouses who dominate as champions of the gods.  ",
-            "description_long_str": "Blessed and bolstered by ancient magic, the Annointed perfectly balances destroying their enemies and protecting their allies.  ",
+            "description_long": "Blessed and bolstered by ancient magic, the Annointed perfectly balances destroying their enemies and protecting their allies.  ",
             "class_type": "Primary Magic Martial",
             "primary_ability": "Str",
             "hit_die": 12,
@@ -1277,7 +1402,7 @@
             "consumables_known_per_level": 0.25,
             "consumables_points_per_level": 0.25,
             "consumables_max_per_level_denominator": 8,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Magical Boons",
                     "level": 1,
@@ -1436,7 +1561,7 @@
             "name": "Nova",
             "class_img_credit": "Created by Eucalyp from NounProject.com",
             "description": "Energy wielders that can summon defensive fields and unleash devastating blasts.  ",
-            "description_long_str": "Possessing a massive reservoir of internalized energy, the Nova can unleash destructive beams and construct protective fields to manipulate the battlefield.  ",
+            "description_long": "Possessing a massive reservoir of internalized energy, the Nova can unleash destructive beams and construct protective fields to manipulate the battlefield.  ",
             "class_type": "Primary Power Caster",
             "primary_ability": "Cha",
             "hit_die": 6,
@@ -1455,7 +1580,7 @@
             "consumables_known_per_level": 2,
             "consumables_points_per_level": 2,
             "consumables_max_per_level_denominator": 2,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Powercasting Milestone",
                     "level": 1,
@@ -1612,7 +1737,7 @@
             "name": "Subvertist",
             "class_img_credit": "Created by Romain Bernard from NounProject.com",
             "description": "A movement focused master of misdirection who excels at battfield cleanup.  ",
-            "description_long_str": "With a razor sharp focus on mobility and agility, the Subvertist thrives when protecting civilians and distracting enemies.  ",
+            "description_long": "With a razor sharp focus on mobility and agility, the Subvertist thrives when protecting civilians and distracting enemies.  ",
             "class_type": "Secondary Power Caster",
             "primary_ability": "Wis",
             "hit_die": 8,
@@ -1631,7 +1756,7 @@
             "consumables_known_per_level": 1,
             "consumables_points_per_level": 1,
             "consumables_max_per_level_denominator": 3,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Powercasting Milestone",
                     "level": 1,
@@ -1802,7 +1927,7 @@
             "name": "Metamorph",
             "class_img_credit": "Created by iconfield from NounProject.com",
             "description": "A versatile shapechanger that can specialize down several paths.  ",
-            "description_long_str": "Reshaping themselves to fit the needs of the situation, the Metamorph is a highly adaptive-often considered critical-component of enhanced team groups.  ",
+            "description_long": "Reshaping themselves to fit the needs of the situation, the Metamorph is a highly adaptive-often considered critical-component of enhanced team groups.  ",
             "class_type": "Secondary Power Martial",
             "primary_ability": "Con",
             "hit_die": 10,
@@ -1821,7 +1946,7 @@
             "consumables_known_per_level": 0.5,
             "consumables_points_per_level": 0.5,
             "consumables_max_per_level_denominator": 6,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Power Enhancements",
                     "level": 1,
@@ -1995,7 +2120,7 @@
             "name": "Dynamo",
             "class_img_credit": "Punch by Smalllike from NounProject.com",
             "description": "Utter powerhouses that rely on brute force to break down and destroy their enemies.  ",
-            "description_long_str": "Wielding raw physical power, the Dynamo thrives when decimating powerful foes and hordes alike.   ",
+            "description_long": "Wielding raw physical power, the Dynamo thrives when decimating powerful foes and hordes alike.   ",
             "class_type": "Primary Power Martial",
             "primary_ability": "Str",
             "hit_die": 12,
@@ -2014,7 +2139,7 @@
             "consumables_known_per_level": 0.25,
             "consumables_points_per_level": 0.25,
             "consumables_max_per_level_denominator": 8,
-            "class_feats": [
+            "class_table": [
                 {
                     "name": "Power Enhancements",
                     "level": 1,

@@ -9,14 +9,13 @@ export default () => {
         <Cards
             cardDefinition={{
                 header: item => (
-                    <Link href="#" fontSize="heading-m">
+                    <Link href={`/characters/classes/${item.name.toLowerCase()}`} fontSize="heading-m">
                         {item.name}
                     </Link>
                 ),
                 sections: [
                     {
                         id: "description",
-                        // header: "Description",
                         content: item => item.description
                     },
                     {
@@ -27,7 +26,7 @@ export default () => {
                     {
                         id: "hit_die",
                         header: "Hit Die",
-                        content: item => item.hit_die
+                        content: item => `d${item.hit_die}`
                     },
                     {
                         id: "primary_ability",
@@ -41,24 +40,19 @@ export default () => {
                     },
                 ]
             }}
-            cardsPerRow={[
-                { cards: 1 },
-                { minWidth: 800, cards: 4 }
-            ]}
+            cardsPerRow={[{
+                cards: 1
+            }, {
+                minWidth: 500,
+                cards: 2
+            }, {
+                minWidth: 800,
+                cards: 4
+            }]
+            }
             items={classes.entries}
             // trackBy="name"
             visibleSections={["description", "class_type", "hit_die", "primary_ability", "saves"]}
-        // empty={
-        //     <Box
-        //         margin={{ vertical: "xs" }}
-        //         textAlign="center"
-        //         color="inherit"
-        //     >
-        //         <SpaceBetween size="m">
-        //             <b>No resources</b>
-        //         </SpaceBetween>
-        //     </Box>
-        // }
         />
     );
 }

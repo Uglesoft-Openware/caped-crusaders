@@ -6,6 +6,7 @@ import AppLayout from "./components/AppLayout"
 import Home from "./pages/Home"
 import Characters from "./pages/Characters"
 import Classes from "./pages/Characters/Classes"
+import ClassPage from "./pages/Characters/Classes/ClassPage"
 import NotFound from "./pages/NotFound"
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
         <Route exact path="/characters/classes" element={
           <AppLayout>
             <Classes />
+          </AppLayout>
+        } />
+        <Route exact path="/characters/classes/:className" element={
+          <AppLayout>
+            <ClassPage />
           </AppLayout>
         } />
         <Route path="*" element={
