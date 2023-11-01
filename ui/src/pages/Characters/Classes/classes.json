@@ -2,8 +2,9 @@
     "entries": [
         {
             "name": "Visionary",
+            "thumbnail": "KnowOnePlays.png",
             "descriptions": {
-                "short": "An armored sentinel wielding unique technology beyond the cutting edge.  ",
+                "preview": "An armored sentinel wielding unique technology beyond the cutting edge.  ",
                 "overview": "Armed with the most advanced arsenal of devices and weapons of the era, the Visionary is a durable and versatile Primary Techcaster who contributes to combat and excels at utility.  ",
                 "primary": {
                     "heading": "Technological Intuition",
@@ -56,7 +57,21 @@
                     "class_features": [
                         {
                             "name": "Techcasting Milestone",
-                            "desc": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list.  <ul><li><b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning.  </li><br><li><b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  </li><br><li><b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  </li><br><li><b>Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  </li><br><li><b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.  </li><br><li><b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  </li></ul>"
+                            "content": [
+                                {
+                                    "text": "You have known intimate knowledge of technology far beyond your time, and are capable of applying these technologies in a variety of ways.  See the Rules for Techcasting mechanics and Technologies list."
+                                },
+                                {
+                                    "list": [
+                                        "<b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning. ",
+                                        "<b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  ",
+                                        "<b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  ",
+                                        "Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  ",
+                                        "<b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.",
+                                        "<b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  "
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "name": "Augmented Armor",
@@ -237,66 +252,6 @@
                             "desc": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
                         }
                     ]
-                }
-            ],
-            "subclass_magic_name": "Glyphologist",
-            "subclass_magic_img_credit": "Created by Andrejs Kirma from NounProject.com",
-            "subclass_magic_description": "A scholar of ancient knowledge and mythology, the Glyphologist combines modern science with ancient magical power sources. Whether it be inscribing runes, compressing motes of power, or integrating powerful artifacts, the Glyphologist binds themselves and their armor together on a supernatural level. While not a spellcaster, the Glyphologist still benefits from magical boons that manifest in a variety of ways. The Glyphologist can also adapt other suits of Magical Armor to fit their needs.  ",
-            "subclass_magic_feats": [
-                {
-                    "name": "Integrated Magic",
-                    "level": 2,
-                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
-                },
-                {
-                    "name": "Improved Magic",
-                    "level": 8,
-                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
-                },
-                {
-                    "name": "Superior Magic",
-                    "level": 16,
-                    "mechanics_str": "You gain one enduring Boon from the enduring Boon list.  You may also swap one previously gained enduring Boon for another that you qualify for.  "
-                }
-            ],
-            "subclass_power_name": "Magnate",
-            "subclass_power_img_credit": "Created by Dairy Free Design from NounProject.com",
-            "subclass_power_description": "Some superpowers are far more subtle than most, and the Magnate is a prime example. Whether relying on magnetic manipulation, electrokinesis, or cybernetics, you stand out as a Visionary with precise control over your Technology. Having a direct connection between your nervous system and your devices grants you an innate control over your Augmented Armor. The Magnate can also adapt other suits of Metapower Armor to fit their needs.  ",
-            "subclass_power_feats": [
-                {
-                    "name": "Integrated Power",
-                    "level": 2,
-                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
-                },
-                {
-                    "name": "Improved Power",
-                    "level": 8,
-                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
-                },
-                {
-                    "name": "Superior Power",
-                    "level": 16,
-                    "mechanics_str": "You gain one enhancing Power from the enhancing Power list.  You may also swap one previously gained enhancing Power for another that you qualify for.  "
-                }
-            ],
-            "subclass_tech_name": "Virtuoso",
-            "subclass_tech_img_credit": "Created by Adityas Fathunurrahman from NounProject.com",
-            "subclass_tech_description": "A paragon of invention and ingenuity, the Virtuoso has created and incorporated a truly sustainable energy source. This energy source grants the Virtuoso several at-will Technologies and capabilities, such as flight. The Virtuoso can also adapt other suits of Technological Armor to fit their needs.  ",
-            "subclass_tech_feats": [
-                {
-                    "name": "Integrated Tech",
-                    "level": 2,
-                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
-                },
-                {
-                    "name": "Improved Tech",
-                    "level": 8,
-                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
-                },
-                {
-                    "name": "Superior Tech",
-                    "level": 16,
-                    "mechanics_str": "You gain one sustained Tech from the sustained Tech list. You may also swap one previously gained sustained Tech for another that you qualify for.  "
                 }
             ]
         },

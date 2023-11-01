@@ -1,6 +1,7 @@
 import * as React from "react";
 import Cards from "@cloudscape-design/components/cards";
 import Link from "@cloudscape-design/components/link";
+import SpaceBetween from "@cloudscape-design/components/space-between";
 
 import classes from './classes.json'
 
@@ -16,7 +17,12 @@ export default () => {
                 sections: [
                     {
                         id: "description",
-                        content: item => item.description
+                        content: item => {
+                            return <>
+                                <img src={"/" + item.thumbnail} width={32} style={{ marginRight: "8px", float: "left" }} />
+                                {item?.descriptions?.preview}
+                            </>
+                        }
                     },
                     {
                         id: "class_type",
@@ -36,7 +42,7 @@ export default () => {
                     {
                         id: "saves",
                         header: "Saves",
-                        content: item => item.saves
+                        content: item => item?.proficiencies?.saves?.join(', ')
                     },
                 ]
             }}

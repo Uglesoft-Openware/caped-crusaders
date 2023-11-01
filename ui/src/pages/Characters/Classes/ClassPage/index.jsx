@@ -2,6 +2,8 @@ import * as React from "react";
 import classes from './../classes.json'
 import { useParams } from "react-router-dom";
 
+import ClassFeature from "./../../../../components/ClassFeature";
+
 import Table from "@cloudscape-design/components/table";
 import Box from "@cloudscape-design/components/box";
 import SpaceBetween from "@cloudscape-design/components/space-between";
@@ -19,6 +21,18 @@ export default () => {
             }
         })
     }, [])
+
+    const ShowClassFeatures = (class_table) => {
+        const class_features = class_table?.reduce((accumulator, item) => {
+            return accumulator.concat(item?.class_features)
+        }, [])
+
+        return <>
+            {class_features?.map((class_feature) => (
+                <ClassFeature class_feature={class_feature} />
+            ))}
+        </>
+    }
 
     return (
         <>
@@ -208,9 +222,7 @@ export default () => {
                 </code>
             </TextContent>
             <hr></hr>
-            <TextContent>
-                {characterClass?.class_table?.[0]?.class_features?.[0]?.desc}
-            </TextContent>
+            {ShowClassFeatures(characterClass?.class_table)}
         </>
     );
 }
