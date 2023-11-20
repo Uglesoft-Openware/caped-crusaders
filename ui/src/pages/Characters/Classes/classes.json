@@ -63,19 +63,55 @@
                                 },
                                 {
                                     "list": [
-                                        "<b>Technologies Known:</b>  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning. ",
-                                        "<b>Tech Points:</b>  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  ",
-                                        "<b>Max Tech Level:</b>  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  ",
-                                        "Techcasting Ability:</b>  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  ",
-                                        "<b>Technology save DC</b> = 8 + your Proficiency Bonus + your Techcasting ability modifier.",
-                                        "<b>Technology attack modifier</b> = your Proficiency Bonus + your Techcasting ability modifier.  "
+                                        "Technologies Known:  Your total number of leveled Technologies known at any given level is equal to the value shown in the Consumables Known column + your Techcasting Ability Modifier.  At first level, you learn a number of leveled Technologies equal to 2 + your Techcasting Ability Modifier and a number of cantrips equal to your Proficiency Bonus.  You learn an additional 2 leveled Technologies of your choice at each higher Visionary level as shown in the leveled Technologies Known column of the Visionary table and additional cantrips upon increasing your Proficiency Bonus.  You may not learn a leveled Technology of a level higher than your Max Technology Level, and you may learn a leveled Technology at the same time you learn its prerequisite.  Upon each level up, you may also replace any one known Technology for another Technology of the same level that you are capable of learning. ",
+                                        "Tech Points:  You have a number of Tech Points equal to your Visionary level x 8, as shown in the Tech Points column of the Visionary table, + your Int modifier.  You expend these Tech Points to cast Tech Powers.  You regain all expended Tech Points when you finish a Long Rest.  ",
+                                        "Max Tech Level:  Many leveled Technologies can be overpowered, consuming more Tech Points to create a greater effect.  You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Tech Level column of the Visionary table.  You may only cast leveled Technologies at 6th, 7th, 8th, and 9th-level once.  You regain the ability to do so after a Long Rest.  ",
+                                        "Techcasting Ability:  Your Techcasting ability is Intelligence.  You use your Intelligence modifier whenever a Technology refers to your Techcasting ability.  Additionally, you use this ability score modifier when setting the saving throw DC for a Technology you cast and when making an attack roll with one.  ",
+                                        "Technology save DC = 8 + your Proficiency Bonus + your Techcasting ability modifier.",
+                                        "Technology attack modifier = your Proficiency Bonus + your Techcasting ability modifier.  "
                                     ]
                                 }
                             ]
                         },
                         {
                             "name": "Augmented Armor",
-                            "desc": "Your inventive pursuits have led to you employ an advanced suit of technology that serves as a conduit for your Techcasting.  You gain Augmented Armor, which can be activated for a predefined duration a number of times equal to your Intelligence Modifier between Long Rests.  The traits you gain while the Augmented Armor is active are as follows:  <ul><li><b>Activation:  </b>As a Bonus Action, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Duration:  </b>Your Augmented Armor lasts for a number of minutes equal to your Intelligence Modifier</li><li><b>Armor Class:  </b>You gain an Armor Class bonus equal to your Intelligence Modifier.  </li><li><b>Strength:  </b>Your Strength score becomes equal to your Intelligence score as long as it is not already higher.  </li><li><b>Casting Focus:  </b>You can use the Augmented Armor as a Techcasting focus for your Visionary spells.  </li><li><b>Irremovable:  </b>The Augmented Armor attaches to you and can't be removed against your will.  </li><li><b>Augmentation:  </b>The Augmented Armor expands to cover your entire body, replacing any missing limbs and functioning identically to a limb it replaces.  </li></ul>At level 12, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a Reaction when you are hit by an Attack or forced to make a Saving Throw, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to half of your Intelligence score (rounded down) if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of hours equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>At level 18, your Augmented Armor gains the following additional features:  <ul><li><b>Activation:  </b>As a part of any Action, Bonus Action, or Reaction you take, you can don or doff the Augmented Armor, or choose to deploy or retract the helmet.  </li><li><b>Casting Focus:  </b>You are always considered to possess a Techcasting focus as components of the Augmented Armor dynamically deploy and retract as needed.  </li><li><b>Intelligence Checks:  </b>When you make an Intelligence check, you can treat the d20 result as equal to your Intelligence score if the result before modifiers is lower.  </li><li><b>Vacuum Capability:  </b>You can survive in the vacuum of space for a number of days equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment.  </li></ul>"
+                            "content": [
+                                {
+                                    "text": "Your inventive pursuits have led to you employ an advanced suit of technology that serves as a conduit for your Techcasting.  You gain Augmented Armor, which can be activated for a predefined duration a number of times equal to your Intelligence Modifier between Long Rests.  The traits you gain while the Augmented Armor is active are as follows: "
+                                },
+                                {
+                                    "list": [
+                                        "Activation:  As a Bonus Action, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  ",
+                                        "Duration:  Your Augmented Armor lasts for a number of minutes equal to your Intelligence Modifier",
+                                        "Armor Class:  You gain an Armor Class bonus equal to your Intelligence Modifier.  ",
+                                        "Strength:  Your Strength score becomes equal to your Intelligence score as long as it is not already higher.  ",
+                                        "Casting Focus:  You can use the Augmented Armor as a Techcasting focus for your Visionary spells.  ",
+                                        "Irremovable:  The Augmented Armor attaches to you and can't be removed against your will while you are alive.  ",
+                                        "Augmentation:  The Augmented Armor expands to cover your entire body, replacing any missing limbs and functioning identically to a limb it replaces."
+                                    ]
+                                },
+                                {
+                                    "text": "At level 12, your Augmented Armor gains the following additional features:"
+                                },
+                                {
+                                    "list": [
+                                        "Activation:  As a Reaction when you are hit by an Attack or forced to make a Saving Throw, you can activate or deactivate the Augmented Armor, or choose to deploy or retract the helmet.  ",
+                                        "Intelligence Checks:  When you make an Intelligence check, you can treat the d20 result as equal to half of your Intelligence score (rounded down) if the result before modifiers is lower.  ",
+                                        "Vacuum Capability:  You can survive in the vacuum of space for a number of hours equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment."
+                                    ]
+                                },
+                                {
+                                    "text": "At level 18, your Augmented Armor gains the following additional features:"
+                                },
+                                {
+                                    "list": [
+                                        "Activation:  As a part of any Action, Bonus Action, or Reaction you take, you can don or doff the Augmented Armor, or choose to deploy or retract the helmet.  ",
+                                        "Casting Focus:  You are always considered to possess a Techcasting focus as components of the Augmented Armor dynamically deploy and retract as needed.  ",
+                                        "Intelligence Checks:  When you make an Intelligence check, you can treat the d20 result as equal to your Intelligence score if the result before modifiers is lower.  ",
+                                        "Vacuum Capability:  You can survive in the vacuum of space for a number of days equal to your Intelligence modifier.  This ability recharges upon a Long Rest within a hospitable environment."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
@@ -85,7 +121,11 @@
                     "class_features": [
                         {
                             "name": "Subclass Feature",
-                            "desc": "You gain a subclass as detailed at the bottom of this page.  <br><br>Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                            "content": [
+                                {
+                                    "text": "You gain a subclass as detailed at the bottom of this page.  Each subclass offers a Sustainable at this level, and an additional Sustainable at levels 8, and 16.  "
+                                }
+                            ]
                         }
                     ]
                 },
@@ -104,7 +144,14 @@
                     "class_features": [
                         {
                             "name": "Ability Score Improvement",
-                            "desc": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.  <br><br>You gain this feature again at levels 8, 12, 16, and 19.  "
+                            "content": [
+                                {
+                                    "text": "You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1.  You can't increase an ability score above 20 using this feature.  You may gain this feature multiple times.  Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+                                },
+                                {
+                                    "text": "You gain this feature again at levels 8, 12, 16, and 19.  "
+                                }
+                            ]
                         }
                     ]
                 },
@@ -249,7 +296,11 @@
                     "class_features": [
                         {
                             "name": "Renewable Energy",
-                            "desc": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
+                            "content": [
+                                {
+                                    "text": "Choose one 1st level and one 2nd level Technology you know.  You can cast both of those Technologies at their lowest level without expending Technology Points.  In addition, when you cast a Cantrip as an Action, you can cast that Cantrip again on the same turn as a Bonus Action.  "
+                                }
+                            ]
                         }
                     ]
                 }

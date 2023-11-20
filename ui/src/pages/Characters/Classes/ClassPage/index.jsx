@@ -24,8 +24,12 @@ export default () => {
 
     const ShowClassFeatures = (class_table) => {
         const class_features = class_table?.reduce((accumulator, item) => {
-            return accumulator.concat(item?.class_features)
-        }, [])
+            const filtered = item?.class_features.filter(feature => {
+                // Replace 'matching_name' with the name you want to omit
+                return !accumulator.some(existingFeature => existingFeature.name === feature.name);
+            });
+            return accumulator.concat(filtered);
+        }, []);
 
         return <>
             {class_features?.map((class_feature) => (
